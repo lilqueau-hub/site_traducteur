@@ -12,7 +12,11 @@ body{
 
 
 
-
+h2 {
+    padding: 15px;
+    text-align: center;
+    color: #212E53;
+}
 table {
     table-layout: fixed;
     border: 3px solid rgb(0, 0, 0);
@@ -33,85 +37,10 @@ td {
 tbody {
     padding: 8px 10px;
     border: 3px solid rgb(0, 0, 0);
-
 }
-/* main */
-/*  <section class="traductionPrices">
-            <table class="traductionTable">
-                <tbody>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        
-        <section class="interpretariatTarif">
-            <table class="interpretariatTable">
-                <tbody>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Tarif</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
- */
+.traductionPrices {
+    margin-bottom: 25px;
+}
+.interpretariatTarif {
+    margin-bottom: 25px;
+}
