@@ -410,9 +410,29 @@ footer {
         display: none;
     }
     .myEducation {
-        display: flex;
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .whoAmI {
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .educations {
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .who-img {
+        margin-top: 15px;
     }
     footer {
+        align-items: center;
         display: grid;
         flex-direction: row;
         justify-content: space-between;
