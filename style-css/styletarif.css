@@ -10,4 +10,108 @@ body{
     height: 100vh;
 }
 
+
+
+
+table {
+    table-layout: fixed;
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: #FFF7F0;
+    width: 75%;
+    margin: auto;
+}
+tr {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+}
+td {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+tbody {
+    padding: 8px 10px;
+    border: 3px solid rgb(0, 0, 0);
+
+}
 /* main */
+/*  <section class="traductionPrices">
+            <table class="traductionTable">
+                <tbody>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="interpretariatTarif">
+            <table class="interpretariatTable">
+                <tbody>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tarif</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+ */
