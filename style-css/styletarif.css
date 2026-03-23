@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 1.4rem; /*14px*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+/* Header */
+.mobile-menu-checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.logo-img {
+    height: 90px;
+    width: 110px;
+    margin: 10px;
+    position: relative;
+}
+.logo-img img {
+    height: 90%;
+    width: 90%;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    background-color: white;
+}
+.navList {
+    display: flex;
+    list-style: none;
+}
+.navList a {
+    text-decoration: none;
+    color: #212E53;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuBurger {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+.menuBurger span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #1a1a1a;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25 ease;
+}
+
+.navLanguagesBtn {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    list-style: none;
+}
+.navLanguagesBtn img {
+    height: 50px;
+    width: 90%;
+}
+
+.mobile-menu-burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+.mobile-menu-burger span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #1a1a1a;
+    letter-spacing: 0.05em;
+    position: relative;
+}
+
+/* Navbar Mobile */
+.mobile-menu {
+    display: none;
+    background: #ffffff;
+    border-bottom: 1px solid #d8def2;
+}
+.mobile-menu-link {
+  width: 100%;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+} 
+.mobile-menu-link .icon {
+  margin-left: auto;
+  font-size: 2rem;
+  line-height: 1;
+  color: #a1a8c0;
+  font-weight: 500;
+}
+
+.title-img {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: lighten;
+    height: 500px;
+    background: url(../img/3073-translation-service.jpg);
+    background-size: cover;
+    padding: 3rem;
+}
+.title-img h1 {
+    color: white;
+    margin: 25px;
+    font-weight: 500;
+}
+
+/* main */
+
+/* footer */
+footer {
+    background-color: #494E5F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoFooter {
+    margin: 15px;
+    text-align: center;
+}
+.logoFooter img {
+    width: 200px;
+}
+.logoFooter p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.lienFooter {
+    font-size: 15px;
+}
+.lienList {
+    margin-top: 15px;
+    list-style: none;
+    font-size: 15px;
+    gap: 5px;
+}
+.lienList a {
+    text-decoration: none;
+    color: white;
+    
+}
+.lienFooter h3 {
+    color: white;
+}
+
+.contactFooter {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.contactFooter h3 {
+    margin-bottom: 15px;
+}
+.numContact {
+    display: flex;
+}
+.numContact img{
+    width: 16px;
+    height: 16px;
+}
+.numContact p {
+    padding-left: 5px;
+}
+
+.mailContact {
+    display: flex;
+}
+.mailContact img {
+    width: 16px;
+    height: 16px;
+}
+.mailContact p {
+    padding-left: 5px;
+}
+
+.linkedContact {
+    display: flex;
+}
+.linkedContact img {
+    width: 16px;
+    height: 16px;
+}
+.linkedContact p {
+    padding-left: 5px;
+}
+
+.numeroSend {
+    display: block;
+}
+
+.numTel {
+    display: flex;
+}
+.numTel p {
+    color: white;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+    border: solid #335F8A;
+}
+.numTel button {
+    background-color: #335F8A;
+    color: white;
+    border: solid #335F8A;
+    padding: 15px;   
+    margin: 5px;
+    width: 149px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (min-width: 769px) {
+    footer {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    .menuBurger {
+        display: none;
+    }
+}
+
+@media (max-width: 1025px) {
+    nav {
+        display: flex;
+    }
+    .navList {
+        display: none;
+    }
+    
+    
+}
