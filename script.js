@@ -1,10 +1,3 @@
-// const contactForm = document.querySelector("#formulaire");
-
-// document.getElementById('contactForm').addEventListener('submit', (e)=>{
-//     e.preventDefault();
-    
-// })
-
 
 const contactForm = document.getElementById("formulaire");
 const contactPrenom = document.getElementById("prenom");
