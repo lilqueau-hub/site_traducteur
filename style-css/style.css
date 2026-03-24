@@ -59,10 +59,10 @@ nav {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.25rem;
 }
 .menuBurger span {
     display: block;
+    margin: 5px;
     width: 24px;
     height: 3px;
     background: #1a1a1a;
@@ -406,11 +406,39 @@ footer {
 }
 
 @media (max-width: 1025px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
     nav {
         display: flex;
     }
     .navList {
         display: none;
+    }
+    .navLanguagesBtn {
+        display: flex;
+        gap: 15px;
+    }
+    .navLanguagesBtn img {
+        width: 50px;
+        height: 40%;
+        gap: 5px;
+    }
+    /* .navLanguagesBtn {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    list-style: none;
+}
+.navLanguagesBtn img {
+    height: 50px;
+    width: 90%;
+} */
+    .menuBurger {
+        display: flex;
+        gap: -15px;
+        margin: 15px;
     }
     .myEducation {
         display: grid;
