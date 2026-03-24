@@ -1,3 +1,22 @@
+// function myFunction() {
+//     var x = document.getElementById("mobileMenu");
+//     if (x.style.display === "block") {
+//         x.style.display = "none";
+//     } else {
+//         x.style.display = "block";
+//     }
+// }
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const burgerBtn = document.querySelector('menuBurgerMobile');
+
+//     const toggleMobileMenu = () => {
+//         burgerBtn.classList.toggle('mobileMenu');
+//     } ;
+//     if (burgerBtn) {
+//         burgerBtn.addEventListener('click', toggleMobileMenu);
+//     }
+// });
 
 const contactForm = document.getElementById("formulaire");
 const contactPrenom = document.getElementById("prenom");
