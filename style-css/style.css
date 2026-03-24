@@ -125,8 +125,10 @@ nav {
   color: #1a1a1a;
   cursor: pointer;
 } 
+.mobile-menu-link a {
+    color: white;
+}
 .mobile-menu-link .icon-menu {
-
   font-size: 2rem;
   line-height: 1;
   color: #a1a8c0;
