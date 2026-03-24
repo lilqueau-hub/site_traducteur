@@ -8,7 +8,31 @@ body{
     font-size: 1.4rem; /*14px*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
-    z-index: 1;
 }
 
+.contactInfo {
+    margin: auto 0;
+}
+.contactInfo h2 {
+    text-align: center;
+    padding: 15px;
+    font-family: Tahoma;
+    color: #212E53;
+}
+.contactInfo p {
+    font-size: 18px;
+}
 
+.formContact {
+    margin-top: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.formContact h3 {
+    text-align: center;
+    padding: 15px;
+    font-family: Tahoma;
+    color: #212E53;
+}

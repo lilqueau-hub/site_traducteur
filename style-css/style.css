@@ -97,19 +97,25 @@ nav {
     background-color: #1a1a1a;
     letter-spacing: 0.05em;
     position: relative;
+    color: white;
 }
 
 /* Navbar Mobile */
+
+
 .mobile-menu {
     display: none;
     background: #ffffff;
     border-bottom: 1px solid #d8def2;
 }
+.mobile-menu-item {
+    align-items: center;
+    text-align: center;
+}
 .mobile-menu-link {
   width: 100%;
   background: none;
   border: none;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
@@ -119,8 +125,8 @@ nav {
   color: #1a1a1a;
   cursor: pointer;
 } 
-.mobile-menu-link .icon {
-  margin-left: auto;
+.mobile-menu-link .icon-menu {
+
   font-size: 2rem;
   line-height: 1;
   color: #a1a8c0;
@@ -225,7 +231,7 @@ nav {
 }
 
 
-span {
+.span-educ {
     display: block;
     height: 3px;
     width: 300px;
