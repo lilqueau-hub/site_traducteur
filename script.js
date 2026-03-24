@@ -7,6 +7,8 @@
 //     }
 // }
 
+document.addEventListener('')
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     const burgerBtn = document.querySelector('menuBurgerMobile');
 

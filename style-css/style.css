@@ -433,6 +433,20 @@ footer {
         gap: -15px;
         margin: 15px;
     }
+    .mobile-menu {
+        background-color: #335F8A;
+    }
+    .mobile-menu-body {
+        background-color: #335F8A;
+
+    }
+    .mobile-menu-link {
+        color: white;
+    }
+    /* .<div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-body">
+            <div class="mobile-menu-item">
+                <button class="mobile-menu-link"> */
     .myEducation {
         display: grid;
         flex-direction: row;
