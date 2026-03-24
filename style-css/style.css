@@ -457,8 +457,7 @@ footer {
     .educations {
         display: grid;
         flex-direction: row;
-        margin: 0 auto;   
-        
+        margin: 0 auto;  
     }
     .Educ1 {
         gap: 5px;

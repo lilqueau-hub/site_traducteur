@@ -10,13 +10,6 @@ body{
     height: 100vh;
 }
 
-
-
-h2 {
-    padding: 15px;
-    text-align: center;
-    color: #212E53;
-}
 table {
     table-layout: fixed;
     border: 3px solid rgb(0, 0, 0);
@@ -38,9 +31,37 @@ tbody {
     padding: 8px 10px;
     border: 3px solid rgb(0, 0, 0);
 }
+
+
 .traductionPrices {
     margin-bottom: 25px;
 }
+.traductionPrices p {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.traductionPrices h2 {
+    padding: 15px;
+    text-align: center;
+    color: #212E53;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
 .interpretariatTarif {
     margin-bottom: 25px;
+}
+.interpretariatTarif p {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.interpretariatTarif h2 {
+    padding: 15px;
+    text-align: center;
+    color: #212E53;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
