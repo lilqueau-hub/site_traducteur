@@ -136,24 +136,37 @@
                     <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
                 </div>
                 <div class="form-item-languages">
+                
                     <div class="form-item">
-                        <input id="optionSource" list="option" placeholder="Langue source" onclick="myExpand();" />
-                        <datalist id="optionLanSource">
-                            <option value="Option A">Français</option>
-                            <option value="Option B">Anglais</option>
-                            <option value="Option C">Allemand</option>
+                        <input id="optionSource" list="optionSource" placeholder="Langue source">
+                        <datalist id="langueSources">
+                            <option value="Anglais"></option>
+                            <option value="Français"></option>
+                            <option value="Allemand"></option>
                         </datalist>
                         <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
+
                     <div class="form-item">
-                        <input id="optionCible" list="option" placeholder="Langue cible" onclick="myExpand();" />
-                        <datalist id="optionLanCible">
-                            <option value="Option A">Français</option>
-                            <option value="Option B">Anglais</option>
-                            <option value="Option C">Allemand</option>
+                        <input id="optionLangue" list="optionSource" placeholder="Langue cible">
+                        <datalist id="langueCible">
+                            <option value="Anglais"></option>
+                            <option value="Français"></option>
+                            <option value="Allemand"></option>
                         </datalist>
                         <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
+
+                    <!-- <label for="ice-cream-choice">Choose a flavor:</label> -->
+                    <!-- <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+                    <datalist id="ice-cream-flavors">
+                    <option value="Chocolate"></option>
+                    <option value="Coconut"></option>
+                    <option value="Mint"></option>
+                    <option value="Strawberry"></option>
+                    <option value="Vanilla"></option>
+                    </datalist> -->
                 </div>
                 <div class="form-item">
                     <textarea id="message">Votre message</textarea>

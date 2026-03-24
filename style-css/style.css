@@ -496,48 +496,6 @@ footer {
         font-size: 25px;
        
     }
-    /*  <footer>
-        <div class="logoFooter">
-            <img src="img/logo-trad_-_Copie-removebg-preview.png" alt="">
-            <p>Traducteur interprète</p>
-        </div>
-
-        <div class="lienFooter">
-            <h3>Liens rapides</h3>
-            <ul class="lienList">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="tarif.html">Tarifs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-
-        <div class="contactFooter">
-            <h3>Contact</h3>
-            <div class="numContact">
-                <img src="img/phone-white-transparent-icon-115495000895pnrajsdqc-removebg-preview.png" alt="">
-                <p>06 04 41 88 30</p>
-            </div>
-
-            <div class="mailContact">
-                <img src="img/black-n-white-mail-envelope-icon-png-clipart-thumbnail-removebg-preview.png" alt="">
-                <p>rodolphequeau@gmail.com</p>
-            </div>
-
-            <div class="linkedContact">
-                <img src="img/178-1781512_linkedin-white-linked-in-logo-removebg-preview.png" alt="">
-                <p>www.linkedin.com/in/rodolphequéau-68b103293</p>
-            </div>
-        </div>
-
-        <div class="numeroSend">
-            <p>Déposez votre numéro de téléphone pour un rappel</p>
-            <div class="numTel">
-                <p>Numéro de tél.</p>
-                <button>Envoyer</button>
-            </div>
-        </div>
-    </footer> */
     footer {
         display: grid;
         flex-direction: row;
