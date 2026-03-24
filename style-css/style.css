@@ -193,12 +193,10 @@ nav {
     height: 350px;
 }
 .myEducation h2 {
-    margin-top: 25px;
     color: #212E53;
     font-weight: 100;
-    position: absolute;
 	left: 32%;
-	transform: translate(-50%, -50%);
+    text-align: center;
 }
 .educations {
     margin-top: 35px;
@@ -404,6 +402,7 @@ footer {
         margin-top: 15px;
     }
     
+
 }
 
 @media (max-width: 1025px) {
@@ -420,23 +419,31 @@ footer {
         margin: 0 auto;
         align-items: center;
     }
+    .educations {
+        display: grid;
+        flex-direction: row;
+        margin: 0 auto;   
+    }
+    .Educ1 {
+        gap: 5px;
+        padding: 15px;
+    }
+    .Educ2 {
+        gap: 5px;
+        padding: 15px;
+    }
     .whoAmI {
         display: grid;
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
     }
-    .educations {
-        display: grid;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 auto;
-    }
+    
     .who-img {
         margin-top: 15px;
     }
     .title-img h1 {
-        font-size: 20px;
+        font-size: 25px;
        
     }
     footer {
