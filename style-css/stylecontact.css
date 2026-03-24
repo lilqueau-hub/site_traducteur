@@ -51,42 +51,12 @@ body{
     margin: auto 0;
 }
 .form-item {
-    padding: 15px;
+    margin: auto 0;
+    justify-content: center;
 }
 
 .form-item-languages {
     display: flex;
+    justify-content: center;
+    margin: auto 0;
 }
-/* <div class="form-item-fullname">
-                    
-                    <div class="form-item">
-                        <input type="text" id="nom" placeholder="Nom*">
-                        <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
-                    </div>
-                </div>
-                
-                <div class="form-item-languages">
-                    <div class="form-item">
-                        <input id="optionSource" list="option" placeholder="Langue source" onclick="myExpand();" />
-                        <datalist id="optionLanSource">
-                            <option value="Option A">Français</option>
-                            <option value="Option B">Anglais</option>
-                            <option value="Option C">Allemand</option>
-                        </datalist>
-                        <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
-                    </div>
-                    <div class="form-item">
-                        <input id="optionCible" list="option" placeholder="Langue cible" onclick="myExpand();" />
-                        <datalist id="optionLanCible">
-                            <option value="Option A">Français</option>
-                            <option value="Option B">Anglais</option>
-                            <option value="Option C">Allemand</option>
-                        </datalist>
-                        <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
-                    </div>
-                </div>
-                <div class="form-item">
-                    <textarea id="message">Votre message</textarea>
-                    <div class="error invisible">Ce champ doit contenir entre dix et cent caractères</div>
-                </div>
- */

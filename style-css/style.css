@@ -301,10 +301,10 @@ footer {
     align-items: center;
     color: white;
     font-size: 15px;
+    gap: 5px;
     font-family: Verdana;
 }
 .logoFooter {
-    margin: 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -386,7 +386,7 @@ footer {
 .numTel {
     display: flex;
 }
-.numTel p {
+.numTelInput {
     color: white;
     background: none;
     align-items: center;
