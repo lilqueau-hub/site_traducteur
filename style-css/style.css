@@ -304,15 +304,18 @@ footer {
     font-family: Verdana;
 }
 .logoFooter {
-    margin: 15px;
+    margin: 0 auto;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .logoFooter img {
     width: 200px;
 }
 .logoFooter p{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma;
+    font-size: 15px;
 }
 
 
@@ -335,6 +338,8 @@ footer {
 }
 
 .contactFooter {
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
     margin-bottom: 15px;
 }
