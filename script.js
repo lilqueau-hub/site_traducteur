@@ -1,13 +1,17 @@
-// function myFunction() {
-//     var x = document.getElementById("mobileMenu");
-//     if (x.style.display === "block") {
-//         x.style.display = "none";
-//     } else {
-//         x.style.display = "block";
+const burgerBtn = document.getElementById ('menuBurgerMobile');
+
+burgerBtn.addEventListener("click", () => {
+    
+})
+
+// async function displayburgerMenu() {
+//     const burgerBtn = document.getElementById('menuBurgerMobile');
+//     const mobileMenu = document.getElementById('mobileMenu');
+
+//     try {
+//         const resultat = await mobileMenu;
 //     }
 // }
-
-document.addEventListener('')
 
 // document.addEventListener('DOMContentLoaded', () => {
 //     const burgerBtn = document.querySelector('menuBurgerMobile');
@@ -19,6 +23,20 @@ document.addEventListener('')
 //         burgerBtn.addEventListener('click', toggleMobileMenu);
 //     }
 // });
+
+// const burgerBtn = document.getElementById('menuBurgerMobile')
+// const mobileMenu = document.getElementById('mobileMenu');
+// async function displayburgerMenu() {
+//     try {
+//         const resultat = await mobileMenu;
+//         console.log(resultat)
+//     } catch(erreur) {
+//         console.log(erreur);
+//     }
+// }
+// displayburgerMenu();
+
+
 
 const contactForm = document.getElementById("formulaire");
 const contactPrenom = document.getElementById("prenom");
