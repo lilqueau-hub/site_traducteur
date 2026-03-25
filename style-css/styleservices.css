@@ -80,54 +80,17 @@ body{
     padding: 25px;
     text-align: center;
 }
-.recherche {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
+.reception img {
+    width: 46px;
+    height: 46px;
 }
-.traduction {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
+.reception p {
+    padding-top: 10px;
 }
-.relecture {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
+.reception h5 {
+    padding-bottom: 10px;
 }
-.amelioration {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
-}
-.verification {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
-}
-.livraison {
-    background-color: #494E5F;
-    width: 300px;
-    height: 170px;
-    color: white;
-    padding: 25px;
-    text-align: center;
-}
+
 .contactMoi {
     background-color: #212E53;
     width: 300px;
@@ -201,79 +164,6 @@ body{
 .consecutiveInterpretation-phone p {
     font-size: 16px;
 }
-/* 
-
-    <section class="services">
-        
-        <div class="translationServices">
-            <div class="translationTitle">
-                <span></span>
-                <p>Voici les services proposés pour la traduction</p>
-                <span></span> 
-            </div>
-            <div class="translation">
-                <div class="personnalDocument">
-                    <div class="imgPersonnal">
-                        <img src="" alt="">
-                    </div>
-                    <div class="personnalDocumentText">
-                        <h4>Traduction de documents personnels</h4>
-                        <p>Traduction de lettres manuscrites ou dactylographiées, témoignages...</p>
-                    </div>
-                </div>
-                <span></span>
-                <div class="officialDocument">
-                    <div class="imgOfficial">
-                        <img src="" alt="">
-                    </div>
-                    <div class="officialDocumentText">
-                        <h4>Traduction de documents officiels</h4>
-                        <p>Traduction de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...</p>
-                    </div>
-                </div> 
-                <span></span>
-                <div class="Documents">
-                    <div class="imgDocument">
-                        <img src="" alt="">
-                    </div>
-                    <div class="documentText">
-                        <h4>Traduction de documents</h4>
-                        <p>Traduction de documents commerciaux : plaquettes, guides , tarifs, déclaration de douanes, documents de transports, commandes, factures...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="interpretationServices">
-            <div class="interpretationTitle">
-                <span></span>
-                <p>Voici les services proposés pour l'interprétation</p>
-                <span></span> 
-            </div>
-            <div class="interpretation">
-                <div class="consecutiveInterpretation-onSite">
-                    <div class="imgConsecutive-onSite">
-                        <img src="" alt="">
-                    </div>
-                    <div class="consecutiveText-onSite">
-                        <h4>Interprétariat consécutif - sur site</h4>
-                        <p>Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.</p>
-                    </div>
-                </div>
-                <span></span>
-                <div class="consecutiveInterpretation-phone">
-                    <div class="imgConsecutive-phone">
-                        <img src="" alt="">
-                    </div>
-                    <div class="consecutiveText-phone">
-                        <h4>Interprétariat consécutif - sur site</h4>
-                        <p>Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</main> */
 
 
 
