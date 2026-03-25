@@ -114,12 +114,10 @@ button {
     justify-content: center;
     margin: auto 0;
 }
-.form-item-fullname, .form-item {
-    width: 100%;
-    padding-right: 5px;
-}
 
 .form-item, .text-area {
+    width: 100%;
+    padding: 0.5rem;
     margin: auto 0;
     justify-content: center;
     margin-bottom: 1rem;

@@ -133,6 +133,15 @@ body{
 
 .personnalDocument {
     display: flex;
+    
+}
+.imgPersonnal {
+    width: 100px;
+    height: 100px;
+}
+.imgPersonnal img {
+    width: 100%;
+    height: 100%;
 }
 .personnalDocumentText p {
     font-size: 16px;
@@ -144,12 +153,24 @@ body{
 .officialDocumentText p{
     font-size: 16px;
 }
+.imgOfficial img {
+    width: 100px;
+    height: 100px;
+}
 
 .Documents {
     display: flex;
 }
 .Documents p {
     font-size: 16px;
+}
+.imgDocument {
+    width: 100px;
+    height: 100px;
+}
+.imgDocument img {
+    width: 100%;
+    height: 100%;
 }
 
 .consecutiveInterpretation-onSite {
@@ -166,7 +187,22 @@ body{
     font-size: 16px;
 }
 
-
+.imgConsecutive-phone {
+    width: 100px;
+    height: 100px;
+}
+.imgConsecutive-phone img {
+    width: 100%;
+    height: 100%;
+}
+.imgConsecutive-onSite {
+    width: 100px;
+    height: 100px;
+}
+.imgConsecutive-onSite img {
+    width: 100%;
+    height: 100%;
+}
 
 /* @media (min-width: 769px) {
     .container-grid {
@@ -185,9 +221,6 @@ body{
         align-items: center;
         justify-content: center;
     }
-    /* .container-grid {
-        display: grid;
-    } */
     .methods {
         display: grid;
         grid-template-columns: auto;
