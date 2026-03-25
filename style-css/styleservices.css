@@ -23,12 +23,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .img-trad {
-    background-size: contain;
     width: 716px;
     height: 497px;
-    background: url(../img/service-traduction-toutes-langues-mail-boxes-etc-martinique-1200x630-1.png);
+    margin: 0 auto;
+   
 }
+.img-trad img{
+    width: 80%;
+    height: 80%;
+}
+
 .traductionText {
+    position: relative;
     width: 671px;
     height: 410px;
     background-color: #707380;
@@ -229,5 +235,14 @@ body{
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
-    
+    .img-trad {
+        width: 100%;
+    }
+    .img-trad img {
+        width: 100%;
+    }
+    .traductionText {
+        align-items: center;
+        justify-content: center;
+    }
 }
