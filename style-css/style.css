@@ -458,9 +458,9 @@ footer {
     .myEducation {
         display: grid;
         flex-direction: row;
-        justify-content: space-between;
         margin: 0 auto;
         align-items: center;
+        height: 420px;
     }
     .educations {
         display: grid;
