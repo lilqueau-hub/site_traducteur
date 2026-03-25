@@ -84,15 +84,16 @@
         <section class="contactInfo">
             <h2>Contact</h2>
             <div class="moyenChoix">
-                <span class="spanContact"></span>
+                <span></span>
                 <p>Vous pouvez me contacter par le moyen de votre choix</p>
-                <span class="spanContact"></span>
+                
             </div>
             
             <div class="telephoneContact">
                 <div class="imgPhone">
                     <img src="img/" alt="">
                 </div>
+                <span></span>
                 <div class="textPhone">
                     <h4>Par téléphone</h4>
                     <p>06 04 41 88 30</p>
@@ -100,10 +101,11 @@
             </div>
             
             <div class="emailContact">
-                <span class="spanContact"></span>
+                
                 <div class="imgEmail">
                     <img src="" alt="">
                 </div>
+                <span></span>
                 <div class="textEmail">
                     <h4>Par e-mail</h4>
                     <p>rodolphequeau@gmail.com</p>
@@ -116,7 +118,8 @@
                 <h3>Formulaire de contact</h3>
                 <p>Utilisez le formulaire de contact pour me contacter sans plus tarder</p>
             </div>
-            <form id="formulaire" action="">
+            <div class="container">
+                <form id="formulaire" action="">
                 <div class="form-item-fullname">
                     <div class="form-item">
                         <input type="text" id="prenom" placeholder="Prénom*">
@@ -157,16 +160,6 @@
                         <div class="error invisible">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
 
-                    <!-- <label for="ice-cream-choice">Choose a flavor:</label> -->
-                    <!-- <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
-
-                    <datalist id="ice-cream-flavors">
-                    <option value="Chocolate"></option>
-                    <option value="Coconut"></option>
-                    <option value="Mint"></option>
-                    <option value="Strawberry"></option>
-                    <option value="Vanilla"></option>
-                    </datalist> -->
                 </div>
                 <div class="form-item">
                     <textarea id="message">Votre message</textarea>
@@ -175,6 +168,8 @@
 
                 <button id="btnForm" type="submit">Envoyer</button>
             </form>
+            </div>
+            
         </section>
     </main>
 
