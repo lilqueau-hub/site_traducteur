@@ -99,7 +99,7 @@
                     <p>06 04 41 88 30</p>
                 </div>
             </div>
-            <span></span>
+            <span class="span-mail"></span>
             <div class="emailContact">
                 <div class="imgEmail">
                     <img src="img/white-envelope-icon-with-transparent-background-png.png" alt="">
@@ -140,8 +140,9 @@
                 <div class="form-item-languages">
                 
                     <div class="form-item">
-                        <input id="optionSource" list="optionSource" placeholder="Langue source">
-                        <datalist id="langueSources">
+                        <input list="optionSource" id="langueSource" name="optionLangueSource" placeholder="Langue source">
+                        <!-- <input id="optionSource" name="optionSource" list="option" placeholder="Langue source"> -->
+                        <datalist id="optionSource">
                             <option value="Anglais"></option>
                             <option value="Français"></option>
                             <option value="Allemand"></option>
@@ -150,8 +151,9 @@
                     </div>
 
                     <div class="form-item">
-                        <input id="optionLangue" list="optionSource" placeholder="Langue cible">
-                        <datalist id="langueCible">
+                        <input list="optionLangue" id="langueCible" name="optionLangueCible" placeholder="Langue cible">
+                        <!-- <input id="optionLangue" name="optionLangue" list="option" placeholder="Langue cible"> -->
+                        <datalist id="optionLangue">
                             <option value="Anglais"></option>
                             <option value="Français"></option>
                             <option value="Allemand"></option>
