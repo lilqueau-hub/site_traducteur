@@ -127,9 +127,8 @@ button {
 }
 .text-area {
     padding: 5rem;
-    width: 100%;
-    height: 200px;
-    resize: none;
+    max-height: 130px;
+    max-width: 500px;
     font-family: Verdana;
 }
 

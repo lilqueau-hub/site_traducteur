@@ -70,7 +70,8 @@ body{
     grid-template-columns: repeat(4, 1fr);
     row-gap: 5px;
     gap: 5px;
-    
+    width: 75%;
+    margin: 0 auto;
 }
 .reception {
     background-color: #494E5F;
