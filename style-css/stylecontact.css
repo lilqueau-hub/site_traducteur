@@ -149,15 +149,6 @@ button {
 }
 
 @media (max-width: 1025px) {
-    h3 {
-        font-family: Tahoma;
-        font-weight: 300;
-    }
-    p {
-        font-size: 12px;
-        font-weight: 300;
-        font-family: Verdana;
-    }
 
     .textPhone p{
         /* font-size: 12px; */

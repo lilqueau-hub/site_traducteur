@@ -194,6 +194,7 @@ nav {
 
 .myEducation {
     background: url(../img/service-traduction-toutes-langues-mail-boxes-etc-martinique-1200x630-1.png);
+    opacity: 25%;                                                                                                                                                               
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -480,8 +481,8 @@ footer {
     }
     .whoAmI {
         display: grid;
-        gap: 4rem;
         padding: 3rem;
+        align-items: center;
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
