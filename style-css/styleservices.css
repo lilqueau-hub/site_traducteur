@@ -39,7 +39,6 @@ body{
     height: 410px;
     background-color: #707380;
     padding: 3rem;
-    margin-left: 550px;
     margin-top: -150px;
 }
 .traductionText p {
@@ -133,8 +132,8 @@ body{
 
 .personnalDocument {
     display: flex;
-    
 }
+
 .imgPersonnal {
     width: 100px;
     height: 100px;
@@ -143,19 +142,31 @@ body{
     width: 100%;
     height: 100%;
 }
+.personnalDocumentText {
+    margin-left: 15px;
+}
 .personnalDocumentText p {
     font-size: 16px;
+}
+.personnalDocumentText h4 {
+    margin-bottom: 5px;
 }
 
 .officialDocument {
     display: flex;
 }
-.officialDocumentText p{
-    font-size: 16px;
-}
 .imgOfficial img {
     width: 100px;
     height: 100px;
+}
+.officialDocumentText {
+    margin-left: 15px;
+}
+.officialDocumentText p{
+    font-size: 16px;
+}
+.officialDocumentText h4{
+    margin-bottom: 5px;
 }
 
 .Documents {
@@ -163,6 +174,12 @@ body{
 }
 .Documents p {
     font-size: 16px;
+}
+.documentText {
+    margin-left: 15px;
+}
+.documentText h4 {
+    margin-bottom: 5px;
 }
 .imgDocument {
     width: 100px;
@@ -173,27 +190,12 @@ body{
     height: 100%;
 }
 
+
 .consecutiveInterpretation-onSite {
     display: flex;
 }
 .consecutiveInterpretation-onSite p {
     font-size: 16px;
-}
-
-.consecutiveInterpretation-phone {
-    display: flex;
-}
-.consecutiveInterpretation-phone p {
-    font-size: 16px;
-}
-
-.imgConsecutive-phone {
-    width: 100px;
-    height: 100px;
-}
-.imgConsecutive-phone img {
-    width: 100%;
-    height: 100%;
 }
 .imgConsecutive-onSite {
     width: 100px;
@@ -203,28 +205,62 @@ body{
     width: 100%;
     height: 100%;
 }
+.consecutiveText-onSite {
+    margin-left: 15px;
+}
+.consecutiveText-onSite h4 {
+    margin-bottom: 5px;
+}
 
-/* @media (min-width: 769px) {
-    .container-grid {
-        display: flex;
-    }
-} */
+.consecutiveInterpretation-phone {
+    display: flex;
+}
+.consecutiveInterpretation-phone p {
+    font-size: 16px;
+}
+.imgConsecutive-phone {
+    width: 100px;
+    height: 100px;
+}
+.imgConsecutive-phone img {
+    width: 100%;
+    height: 100%;
+}
+.consecutiveText-phone {
+    margin-left: 15px;
+}
+.consecutiveInterpretation-phone h4 {
+    margin-bottom: 5px;
+}
+
 @media (max-width: 1025px) {
 
     .img-trad {
-        width: 100%;
+        width: 100vw;
     }
     .img-trad img {
-        width: 100%;
+        width: 100vw;
+    }
+    .traductionInterpretariat {
+        margin-bottom: 25px;
     }
     .traductionText {
+        width: 400px;
+        height: 600px;
         align-items: center;
         justify-content: center;
     }
     .methods {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .containerGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
     
 }

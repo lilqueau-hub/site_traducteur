@@ -311,11 +311,14 @@ footer {
 }
 .logoFooter img {
     width: 200px;
+    height: 200px;
 }
 .logoFooter p{
     color: white;
     font-family: Tahoma;
     font-size: 15px;
+    padding-top: -5px;
+    padding-bottom: 15px;
 }
 
 
