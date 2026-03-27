@@ -253,8 +253,8 @@ body{
     .methods {
         justify-content: center;
         align-items: center;
-        
     }
+    
     .containerGrid {
         display: flex;
         flex-direction: column;
