@@ -204,7 +204,6 @@ nav {
 }
 .myEducation h2 {
     text-align: left;
-
     color: #212E53;
     font-weight: 100;
 	left: 32%;
@@ -248,7 +247,6 @@ nav {
     justify-content: center;
     font-size: 18px;
     margin-top: 25px;
-    /* display: block; */
     margin-bottom: 25px;
 }
 .traductionListOne {
@@ -426,6 +424,11 @@ footer {
 }
 
 @media (max-width: 1025px) {
+
+    p {
+        font-size: 1.2rem;
+    }
+
     header {
         display: flex;
         justify-content: space-between;
@@ -461,6 +464,7 @@ footer {
     .mobile-menu-link {
         color: white;
     }
+
     .myEducation {
         display: grid;
         flex-direction: row;

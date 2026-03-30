@@ -137,7 +137,10 @@ button {
 }
 
 @media (max-width: 1025px) {
-
+    p {
+        font-size: 1.2rem;
+    }
+    
     .textPhone p{
         /* font-size: 12px; */
         font-family: Verdana;

@@ -226,7 +226,10 @@
 }
 
 @media (max-width: 1025px) {
-
+    p {
+        font-size: 1.2rem;
+    }
+    
     .img-trad {
         width: 100vw;
     }
@@ -252,7 +255,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
     
 }
