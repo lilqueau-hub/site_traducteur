@@ -203,7 +203,7 @@ nav {
     height: 350px;
 }
 .myEducation h2 {
-    text-align: left;
+    text-align: center;
     color: #212E53;
     font-weight: 100;
 	left: 32%;
@@ -384,6 +384,7 @@ footer {
 
 .numeroSend {
     display: block;
+    padding: 25px;
 }
 
 .numTel {
@@ -424,10 +425,6 @@ footer {
 }
 
 @media (max-width: 1025px) {
-
-    p {
-        font-size: 1.2rem;
-    }
 
     header {
         display: flex;

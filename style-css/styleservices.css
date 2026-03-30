@@ -10,6 +10,7 @@
     color: #494E5F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .img-trad {
     width: 716px;
     height: 497px;
@@ -29,11 +30,16 @@
     padding: 3rem;
     margin-top: -150px;
 }
-.traductionText p {
-    color: white;
+.textList {
+    list-style: none;
     margin-bottom: 3rem;
+}
+.textList li {
+    color: white;
     font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
+    margin-bottom: 3rem;
+    font-size: 18px;
 }
 
 .methods {
@@ -226,25 +232,26 @@
 }
 
 @media (max-width: 1025px) {
-    p {
-        font-size: 1.2rem;
-    }
-    
+
     .img-trad {
         width: 100vw;
     }
     .img-trad img {
         width: 100vw;
     }
+
     .traductionInterpretariat {
         margin-bottom: 25px;
+        font-size: 1.2rem;
     }
     .traductionText {
         width: 400px;
         height: 600px;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
     }
+
     .methods {
         justify-content: center;
         align-items: center;
@@ -255,6 +262,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .reception p{
+        font-size: 1rem;
     }
     
 }
