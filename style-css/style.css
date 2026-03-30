@@ -194,7 +194,7 @@ nav {
 
 .myEducation {
     background: url(../img/service-traduction-toutes-langues-mail-boxes-etc-martinique-1200x630-1.png);
-    opacity: 25%;                                                                                                                                                               
+    /* opacity: 25%;                                                                                                                                                                */
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -203,10 +203,11 @@ nav {
     height: 350px;
 }
 .myEducation h2 {
+    text-align: left;
+
     color: #212E53;
     font-weight: 100;
 	left: 32%;
-    text-align: center;
 }
 .educations {
     margin-top: 35px;
@@ -389,6 +390,7 @@ footer {
 
 .numTel {
     display: flex;
+    
 }
 .numTelInput {
     color: white;
