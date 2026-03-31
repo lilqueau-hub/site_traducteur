@@ -65,9 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 
-// document.getElementById('').addEventListener('', (e)=>{
-//     e.preventDefault();
-// })
 
 
 // async function sendNumber(){
@@ -86,15 +83,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-document.getElementById('').addEventListener("submit", (e)=>{
-    e.preventDefault();
+// document.getElementById('').addEventListener("submit", (e)=>{
+//     e.preventDefault();
 
-    const numTel = document.getElementById('numTel')
-    const numTelInput = document.getElementById('numTelInput')
-    const numBtn = document.getElementById('numBtn')
+//     const numTel = document.getElementById('numTel')
+//     const numTelInput = document.getElementById('numTelInput')
+//     const numBtn = document.getElementById('numBtn')
 
-    try {
-        
-    }
-})
+//     try {
+
+//     }
+// })
 
