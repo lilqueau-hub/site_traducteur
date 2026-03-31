@@ -64,3 +64,37 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 })
+
+// document.getElementById('').addEventListener('', (e)=>{
+//     e.preventDefault();
+// })
+
+
+// async function sendNumber(){
+//     try{
+
+//     }
+// }
+// sendNumber()
+
+
+
+// const numBtn = document.getElementById('numBtn')
+// numBtn.addEventListener("submit", e =>{
+//     e.preventDefault();
+// })
+
+
+
+document.getElementById('').addEventListener("submit", (e)=>{
+    e.preventDefault();
+
+    const numTel = document.getElementById('numTel')
+    const numTelInput = document.getElementById('numTelInput')
+    const numBtn = document.getElementById('numBtn')
+
+    try {
+        
+    }
+})
+
