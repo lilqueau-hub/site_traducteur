@@ -1,38 +1,39 @@
 /* main */
 .traductionInterpretariat {
     font-size: 18px;
-    height: 818px;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .traductionInterpretariat h2 {
     margin: 25px;
-    padding-left: 2rem;
     color: #494E5F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-trad {
-    width: 716px;
-    height: 497px;
+    /* width: 716px;
+    height: 497px; */
     margin: 0 auto;
-   
 }
 .img-trad img{
-    width: 80%;
-    height: 80%;
+    width: 716px;
+    height: 497px;
 }
 
 .traductionText {
-    position: relative;
     width: 671px;
     height: 410px;
     background-color: #707380;
     padding: 3rem;
-    margin-top: -150px;
+    margin-top: -45px;
+    position: relative;
 }
 .textList {
     list-style: none;
     margin-bottom: 3rem;
+    
 }
 .textList li {
     color: white;
@@ -112,6 +113,10 @@
     margin-bottom: 15px;
     margin-top: 5px;
 }
+.translation {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
 
 .interpretationTitle{
     color: #212E53;
@@ -144,48 +149,6 @@
 }
 .personnalDocumentText h4 {
     margin-bottom: 5px;
-}
-
-.officialDocument {
-    display: flex;
-}
-.imgOfficial {
-    width: 100px;
-    height: 100px;
-}
-.imgOfficial img {
-    width: 100%;
-    height: 100%;
-}
-.officialDocumentText {
-    margin-left: 15px;
-}
-.officialDocumentText p{
-    font-size: 16px;
-}
-.officialDocumentText h4{
-    margin-bottom: 5px;
-}
-
-.Documents {
-    display: flex;
-}
-.Documents p {
-    font-size: 16px;
-}
-.documentText {
-    margin-left: 15px;
-}
-.documentText h4 {
-    margin-bottom: 5px;
-}
-.imgDocument {
-    width: 100px;
-    height: 100px;
-}
-.imgDocument img {
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -235,16 +198,19 @@
 
     .img-trad {
         width: 100vw;
+        height: 200px;
+
     }
     .img-trad img {
-        width: 100vw;
+        width: 100%;
     }
 
     .traductionInterpretariat {
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
         font-size: 1.2rem;
     }
     .traductionText {
+        
         width: 400px;
         height: 600px;
         align-items: center;

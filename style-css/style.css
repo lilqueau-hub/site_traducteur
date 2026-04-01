@@ -99,7 +99,6 @@ nav {
     position: relative;
     color: white;
 }
-
 /* Navbar Mobile */
 
 
@@ -477,6 +476,24 @@ input:focus {
         color: white;
     }
 
+    .whoAmI {
+        display: grid;
+        padding: 3rem;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .who-div {
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        
+    }
+    .who-img {
+        margin-top: 15px;
+    }
+
     .myEducation {
         display: grid;
         flex-direction: row;
@@ -497,23 +514,7 @@ input:focus {
         gap: 5px;
         padding: 15px;
     }
-    .whoAmI {
-        display: grid;
-        padding: 3rem;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 auto;
-    }
-    .who-div {
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        
-    }
-    .who-img {
-        margin-top: 15px;
-    }
+    
     .title-img h1 {
         font-size: 25px;
        

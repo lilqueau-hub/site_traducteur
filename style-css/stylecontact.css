@@ -137,12 +137,8 @@ button {
 }
 
 @media (max-width: 1025px) {
-    p {
-        font-size: 1.2rem;
-    }
     
     .textPhone p{
-        /* font-size: 12px; */
         font-family: Verdana;
     }
     .textPhone h4 {
@@ -165,6 +161,16 @@ button {
     .imgEmail img {
         width: 100%;
         height: 100%;
+    }
+
+
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactInfo p {
+        font-size: 16px;
     }
     
     #formulaire {

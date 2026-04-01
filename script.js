@@ -65,11 +65,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 
-
+// Message automatique à e-mail
+// Voici le numéro de téléphone à rappeler par e-mail : ${e-mail}
 
 // async function sendNumber(){
-//     try{
+//     const numTel = document.getElementById('numTel')
+//     const numTelInput = document.getElementById('numTelInput')
+//     const numBtn = document.getElementById('numBtn')
 
+//     try{
 //     }
 // }
 // sendNumber()
@@ -94,4 +98,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //     }
 // })
+
+
+
+
+// Changement de langue grâce à des boutons
+
+// const choiceLanguages = document.getElementById('navLanguagesBtn')
 
