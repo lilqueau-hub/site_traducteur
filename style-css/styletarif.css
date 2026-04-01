@@ -23,6 +23,8 @@ tbody {
 
 .traductionPrices {
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .traductionPrices p {
     font-size: 18px;
