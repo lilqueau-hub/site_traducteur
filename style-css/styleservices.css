@@ -13,18 +13,15 @@
 }
 
 .img-trad {
-    /* width: 716px;
-    height: 497px; */
     margin: 0 auto;
 }
 .img-trad img{
-    width: 716px;
-    height: 497px;
+    width: 720px;
+    height: 500px;
 }
 
 .traductionText {
     width: 671px;
-    height: 410px;
     background-color: #707380;
     padding: 3rem;
     margin-top: -45px;
@@ -32,14 +29,14 @@
 }
 .textList {
     list-style: none;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     
 }
 .textList li {
     color: white;
     font-weight: lighter;
     font-family: Verdana;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: 18px;
 }
 
@@ -104,9 +101,11 @@
     font-size: 18px;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 .services h2{
     color: #212E53;
+    padding-bottom: 5px;
 }
 .services span {
     display: block;
@@ -127,6 +126,7 @@
 
 .translationServices {
     padding-bottom: 3rem;
+    width: 70%;
 }
 .translationTitle {
     color: #212E53;
@@ -198,7 +198,9 @@
 }
 
 @media (max-width: 1025px) {
-
+    .translationServices {
+        width: 70%;
+    }
     .img-trad {
         width: 100vw;
         height: 200px;
@@ -215,7 +217,6 @@
         margin: 10px;
     }
     .traductionText {
-        
         width: 400px;
         height: 600px;
         align-items: center;

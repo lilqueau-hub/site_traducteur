@@ -40,12 +40,16 @@
     display: flex;
 }
 .imgPhone {
+    margin-top: 15px;
     width: 105px;
     height: 85px;
 }
 .imgPhone img {
     height: 100%;
     width: 100%;
+}
+.textPhone {
+    margin-top: 15px;
 }
 
 .emailContact {
@@ -54,6 +58,9 @@
 }
 .email {
     display: flex;
+}
+.textEmail {
+    margin-top: 15px;
 }
 .imgEmail {
     width: 105px;
@@ -64,12 +71,19 @@
     height: 100%;
 }
 
+
 #formulaire {
     width: 50%;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     padding: 45px;
+}
+.formTitleContact {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .formContact {
     margin-top: 15px;
@@ -79,14 +93,12 @@
     font-size: 18px;
 }
 .formContact p {
+    padding-top: 5px;
     font-size: 16px;
     font-family: Verdana;
-    display: flex;
-    justify-content: center;
 }
 .formContact h3 {
-    text-align: center;
-    padding: 15px;
+    padding-bottom: 10px;
     font-family: Tahoma;
     color: #212E53;
 }
