@@ -42,7 +42,6 @@
 
 .methods {
     padding-top: 3rem;
-    padding-left: 5%;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 3rem;
@@ -90,6 +89,9 @@
     padding: 25px;
     text-align: center;
 }
+.contactMoi:hover {
+    background-color: rgb(255, 0, 0);
+}
 .contactMoi a {
     text-decoration: none;
     color: white;
@@ -109,7 +111,7 @@
 }
 .services span {
     display: block;
-    width: 80%;
+    /* width: 80%; */
     height: 1px;
     background-color: #D9D9D9;
     margin-bottom: 15px;
