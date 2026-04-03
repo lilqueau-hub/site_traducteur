@@ -7,18 +7,20 @@
     flex-direction: column;
 }
 .traductionInterpretariat h2 {
+    width: 70%;
     margin: 25px;
     color: #494E5F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-trad {
-    margin: 0 auto;
+    margin: auto;
 }
 .img-trad img{
     width: 720px;
     height: 500px;
 }
+
 
 .traductionText {
     width: 671px;
@@ -108,6 +110,7 @@
 .services h2{
     color: #212E53;
     padding-bottom: 5px;
+    width: 70%;
 }
 .services span {
     display: block;

@@ -205,7 +205,7 @@ nav {
     height: 50%;
 }
 .myEducation h2 {
-    text-align: center;
+    width: 50%;
     color: #212E53;
     font-weight: 100;
 	left: 32%;
@@ -504,6 +504,11 @@ input:focus {
         margin: 0 auto;
         align-items: center;
         height: 420px;
+    }
+    .myEducation h2 {
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
     }
     .educations {
         display: grid;
