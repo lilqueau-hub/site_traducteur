@@ -100,8 +100,6 @@ nav {
     color: white;
 }
 /* Navbar Mobile */
-
-
 .mobile-menu {
     display: none;
     background: #ffffff;
@@ -153,6 +151,7 @@ nav {
         1px 1px 0 #000000
     ;
 }
+
 
 /* main */
 .whoAmI {
@@ -291,6 +290,9 @@ nav {
     width: 155px;
     height: 40px;
 }
+.contactLink button:hover {
+    background-color: #335F8A;
+}
 .contactLink a {
     color: white;
 }
@@ -427,11 +429,6 @@ input:focus {
     text-decoration: none;
     flex: 1 1 auto;
 }
-/* .numTel button:hover {
-    background-color: #050e16;
-    color: white;
-} */
-
 
 @media (min-width: 769px) {
     .menuBurger {
@@ -481,12 +478,9 @@ input:focus {
     }
 
     .whoAmI {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         padding: 3rem;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 auto;
     }
     .who-div {
         justify-content: center;
@@ -532,7 +526,6 @@ input:focus {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 50px;
         row-gap: 25px;
     }
     .logoFooter {
@@ -541,9 +534,9 @@ input:focus {
         margin: 0 auto;        
     }
     .lienFooter {
+        width: 55%;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;      
     }
     .contactFooter {
         justify-content: center;

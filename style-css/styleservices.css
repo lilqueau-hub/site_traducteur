@@ -207,11 +207,12 @@
         width: 70%;
     }
     .img-trad {
-        width: 100vw;
         height: 200px;
-
+        /* max-width: 100%;
+        width: 100%; */
     }
     .img-trad img {
+        max-width: 100%;
         width: 100%;
     }
 
@@ -223,11 +224,11 @@
     }
     .traductionText {
         width: 400px;
-        height: 600px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
     }
+    
 
     .methods {
         justify-content: center;
@@ -238,13 +239,27 @@
     }
     
     .containerGrid {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin: 0 auto ;
         align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        
+    }
+    .reception {
+        width: 80%;
+        height: 80%;
+        padding: 15px;
+        margin: 15px;
     }
     .reception p{
         font-size: 1rem;
+    }
+    .contactMoi {
+        width: 80%;
+        height: 80%;
+        padding: 15px;
+        margin: 15px;
     }
     
 }

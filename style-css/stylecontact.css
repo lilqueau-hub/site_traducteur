@@ -103,7 +103,7 @@
     color: #212E53;
 }
 
-button {
+.container button {
     border-radius: 5px;
     background-color: #335F8A;
     color: white;
@@ -115,7 +115,7 @@ button {
     font-size: 16px;
     font-weight: 500;
 }
-button:hover {
+.container button:hover {
     background-color: #494E5F;
 }
 
