@@ -99,6 +99,7 @@
     color: white;
 }
 
+
 .services {
     display: flex;
     flex-direction: column;
@@ -125,9 +126,7 @@
     padding-bottom: 15px;
 }
 
-.interpretationTitle{
-    color: #212E53;
-}
+
 
 .translationServices {
     padding-bottom: 3rem;
@@ -160,47 +159,34 @@
 }
 
 
-.consecutiveInterpretation-onSite {
+.interpretationServices {
+    width: 70%;
+    padding-bottom: 3rem;
+}
+.interpretationTitle {
+    color: #212E53;
+}
+.consecutiveInterpretation {
     display: flex;
 }
-.consecutiveInterpretation-onSite p {
-    font-size: 16px;
+.imgConsecutive {
+    width: 150px;
+    height: 120px;
 }
-.imgConsecutive-onSite {
-    width: 100px;
-    height: 100px;
-}
-.imgConsecutive-onSite img {
+.imgConsecutive img {
     width: 100%;
     height: 100%;
 }
-.consecutiveText-onSite {
+.consecutiveText {
     margin-left: 15px;
 }
-.consecutiveText-onSite h4 {
+.consecutiveText p {
+    font-size: 16px;
+}
+.consecutiveText h4 {
     margin-bottom: 5px;
 }
 
-.consecutiveInterpretation-phone {
-    display: flex;
-}
-.consecutiveInterpretation-phone p {
-    font-size: 16px;
-}
-.imgConsecutive-phone {
-    width: 100px;
-    height: 100px;
-}
-.imgConsecutive-phone img {
-    width: 100%;
-    height: 100%;
-}
-.consecutiveText-phone {
-    margin-left: 15px;
-}
-.consecutiveInterpretation-phone h4 {
-    margin-bottom: 5px;
-}
 
 @media (max-width: 1025px) {
     .translationServices {
