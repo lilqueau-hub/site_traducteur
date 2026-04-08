@@ -174,11 +174,15 @@ nav {
     font-weight: 100;
     font-family: Tahoma;
 }
-.who-div p {
+.whoList {
+    list-style: none;
+}
+.whoList li {
     margin-bottom: 15px;
     font-family: Verdana;
     font-weight: lighter;
 }
+
 .who-img {
     width: 450px;
     height: 600px;
