@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 
+
 // Message automatique à e-mail
 // Voici le numéro de téléphone à rappeler par e-mail : ${e-mail}
 
@@ -74,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //     const numBtn = document.getElementById('numBtn')
 
 //     try{
+
 //     }
 // }
 // sendNumber()
@@ -95,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //     const numBtn = document.getElementById('numBtn')
 
 //     try {
-
+        
 //     }
 // })
 

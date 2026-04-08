@@ -80,7 +80,7 @@
     padding: 45px;
 }
 .formTitleContact {
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@
     justify-content: center;
     margin: auto 0;
 }
-.form-item, .text-area {
+.form-item {
     width: 100%;
     padding: 0.5rem;
     margin: auto 0;
@@ -132,15 +132,20 @@
     margin-bottom: 1rem;
     font-family: Verdana;
 }
-.text-area {
-    max-height: 130px;
-    font-family: Verdana;
-}
-
 .form-item input {
     padding: 1rem;
     width: 100%;
 }
+#message {
+    width: 100%;
+    padding: 0.5rem;
+    margin: auto 0;
+    max-height: 130px;
+    justify-content: center;
+    font-family: Verdana;
+}
+
+
 
 .error {
     margin-top: 5px;
