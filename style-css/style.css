@@ -176,6 +176,7 @@ nav {
 }
 .whoList {
     list-style: none;
+    
 }
 .whoList li {
     margin-bottom: 15px;
@@ -199,6 +200,7 @@ nav {
     justify-content: center;
     font-size: 18px;
     height: 350px;
+    border-bottom: 5px #4D4848 solid;
 }
 .imgEduc {
     position: absolute;
