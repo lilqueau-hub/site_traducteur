@@ -133,16 +133,19 @@
     font-family: Verdana;
 }
 .form-item input {
+    border: 1px solid black;
     padding: 1rem;
     width: 100%;
 }
 #message {
+    border: 1px solid black;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: auto 0;
-    max-height: 130px;
+    height: 200px;
     justify-content: center;
     font-family: Verdana;
+    resize: none;
 }
 
 

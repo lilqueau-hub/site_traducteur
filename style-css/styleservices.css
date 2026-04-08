@@ -12,22 +12,6 @@
     color: #494E5F;
     font-family: Tahoma;
 }
-/* <section class="traductionInterpretariat">
-            <h2>Traduction et interprétariat</h2>
-            <div class="tradInter">
-                <div class="img-trad">
-                    <img src="img/service-traduction-toutes-langues-mail-boxes-etc-martinique-1200x630-1.png" alt="">
-                </div>
-                <div class="traductionText">
-                    <ul class="textList">
-                        <li>Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.</li>
-                        <li>Être bilingue ne suffit pas, le traducteur doit avant tout maîtriser parfaitement sa langue maternelle et savoir en dégager toutes les subtilités.</li>
-                        <li>De plus, nous vous conseillons de vous adresser à un expert dans son domaine de spécialité.</li>
-                    </ul>
-                </div>
-            </div>
-        </section> */
-
 
 .img-trad {
     justify-content: center;
@@ -78,7 +62,7 @@
     grid-template-columns: repeat(4, 1fr);
     row-gap: 5px;
     gap: 5px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 .reception {
