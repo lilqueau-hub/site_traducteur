@@ -66,8 +66,19 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-// Message automatique à e-mail
-// Voici le numéro de téléphone à rappeler par e-mail : ${e-mail}
+const numBtn = document.querySelector('.numBtn')
+const sendNumber = []
+
+function sendNumber(e) {
+    const parent = e.target.closest('label')
+    const numTelInput = parent.querySelector('input')
+    const numTelInputValue = numTelInput.value
+
+    if (inputValue !== "") {
+        sendNumber.push(numTelInputValue)
+    }
+}
+numBtn.addEventListener('click', getValue)
 
 // async function sendNumber(){
 //     const numTel = document.getElementById('numTel')
