@@ -210,10 +210,10 @@ nav {
     height: 50%;
 }
 .myEducation h2 {
+    margin-top: 15px;
     width: 50%;
     color: #212E53;
     font-weight: 100;
-	left: 32%;
 }
 .educations {
     margin-top: 35px;
@@ -250,21 +250,6 @@ nav {
     margin-top: 5px;
 }
 
-/* section class="traductionLanguage columns">
-            <h2>Traductions en plusieurs langues possibles</h2>
-            <div class="traductionTwoList">
-                <ul class="traductionListOne">
-                    <li>Français-Anglais</li>
-                    <li>Français-Allemand</li>
-                </ul>
-            
-                <ul class="traductionListTwo">
-                    <li>Anglais-Français</li>
-                    <li>Allemand-Français</li>
-                </ul>
-            </div>
-        </section> */
-
 .traductionLanguage {
     justify-content: center;
     font-size: 18px;
@@ -300,12 +285,12 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: auto;
-    padding: 15px;
     font-size: 18px;
 }
 .contactLink h2 {
-    padding: 25px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
 }
 .contactLink button {
     font-size: 16px;
@@ -527,7 +512,7 @@ input:focus {
         height: 420px;
     }
     .myEducation h2 {
-        margin: 5px;
+        margin-top: 10px;
         padding: 5px;
         width: 100%;
     }
@@ -543,6 +528,15 @@ input:focus {
     .Educ2 {
         gap: 5px;
         padding: 15px;
+    }
+
+    .traductionLanguage h2 {
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 5px;
+        margin-bottom: 5px;
     }
     
     .title-img h1 {

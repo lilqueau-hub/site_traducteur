@@ -84,9 +84,9 @@ numBtn.addEventListener('click', getValue)
 //     const numTel = document.getElementById('numTel')
 //     const numTelInput = document.getElementById('numTelInput')
 //     const numBtn = document.getElementById('numBtn')
-
+//  
 //     try{
-
+//      
 //     }
 // }
 // sendNumber()
@@ -113,9 +113,6 @@ numBtn.addEventListener('click', getValue)
 // })
 
 
-
-
 // Changement de langue grâce à des boutons
 
 // const choiceLanguages = document.getElementById('navLanguagesBtn')
-
