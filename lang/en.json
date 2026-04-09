@@ -38,6 +38,27 @@
     "contactButton": "Contact me"
   },
 
+
+  "tradServices": {
+    "tradServicesTitle": "Translation and interpretation",
+    "textList-One": "Translating is not just about finding an equivalent from one language to another, it is about transcribing as best as possible the spirit of the original document so that it is completely understood by speakers of the target language, without distorting its meaning.",
+    "textList-Two": "Being bilingual is not enough; the translator must above all have a perfect command of his or her mother tongue and know how to bring out all its subtleties.",
+    "textList-Three": "In addition, we advise you to contact an expert in their field of specialty."
+  },
+  "methods": {
+    "methodTitle": "Methods",
+    "reception": "Reception",
+    "research": "Research",
+    "translate": "Translation",
+    "re-read": "Re-reading",
+    "amelioration": "Amelioration",
+    "check": "Checking",
+    "livraison": "Delivery",
+
+    "methodContact": "Need of a translation",
+    "methodContactLink": "Contact me"
+  },
+
   
   "traductionPrices": {
     "traductionTitle": "Translation - Prices",

@@ -39,6 +39,28 @@
   },
 
 
+  
+  "tradServices": {
+    "tradServicesTitle": "Traduction et interprétariat",
+    "textList-One": "Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.",
+    "textList-Two": "Être bilingue ne suffit pas, le traducteur doit avant tout maîtriser parfaitement sa langue maternelle et savoir en dégager toutes les subtilités.",
+    "textList-Three": "De plus, nous vous conseillons de vous adresser à un expert dans son domaine de spécialité."
+  },
+  "methods": {
+    "methodTitle": "Méthodes",
+    "reception": "Réception",
+    "research": "Recherche",
+    "translate": "Traduction",
+    "re-read": "Relecture",
+    "amelioration": "Amélioration",
+    "check": "Vérification",
+    "livraison": "Livraison",
+
+    "methodContact": "Besoin d'une traduction",
+    "methodContactLink": "Contactez-moi"
+  },
+
+
   "traductionPrices": {
     "tradTitle": "Traduction - Tarifs",
     "tradText": "Voici les tarifs pour une traduction"
