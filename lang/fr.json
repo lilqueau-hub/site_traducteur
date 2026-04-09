@@ -39,7 +39,7 @@
   },
 
 
-  
+
   "tradServices": {
     "tradServicesTitle": "Traduction et interprétariat",
     "textList-One": "Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.",
@@ -59,7 +59,23 @@
     "methodContact": "Besoin d'une traduction",
     "methodContactLink": "Contactez-moi"
   },
+  "translationInterpretation": {
+    "translationServiceTitle": "Services",
+    "translationServiceText": "Voici les services proposés pour la traduction",
 
+    "personnalDocumentTitle": "Traduction de documents personnels",
+    "personnalDocumentText": "Traduction de lettres manuscrites ou dactylographiées, témoignages...",
+    "officialDocumentTitle": "Traduction de documents officiels",
+    "officialDocumentText": "Traduction de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
+    "DocumentTitle": "Traduction de documents",
+    "DocumentText": "Traduction de documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
+
+    "interpretationServiceText": "Voici les services proposés pour l'interprétation",
+    "ConsecutiveSiteTitle": "Interprétariat consécutif - sur site",
+    "ConsecutiveSiteText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.",
+    "ConsecutivePhoneTitle": "Interprétariat consécutif - par téléphone (ou internet)",
+    "ConsecutivePhoneText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de communication comptés en sus de la durée de la prestation."
+  },
 
   "traductionPrices": {
     "tradTitle": "Traduction - Tarifs",
@@ -69,6 +85,78 @@
     "interTitle": "Interprétariat - Tarifs",
     "interText": "Voici pour les tarifs pour une interprétation"
   },
+
+
+
+  "contactInfo": {
+    "contactInfoTitle": "Contact",
+    "contactInfoP": "Vous pouvez me contacter par le moyen de votre choix",
+
+    "textPhoneTitle": "Par téléphone",
+    "textEmailTitle": "Par e-mail"
+  },
+  "formContact": {
+    "formContactTitle": "Formulaire de contact",
+    "formContactText": "Utilisez le formulaire de contact pour me contacter sans plus tarder",
+    
+    "formError": "Ce champ doit contenir entre deux et dix caractères",
+
+    "formName": "Prénom*",
+    "formSurname": "Nom*",
+    "formMail": "Adresse e-mail*",
+    "formDomain": "Domaine du projet*",
+
+
+  },
+ <div class="container">
+                <form id="formulaire" action="">
+                <div class="form-item-fullname">
+                    <div class="form-item">
+                        <input type="text" id="prenom" placeholder="Prénom*" style="text-transform: capitalize;">
+                        <div class="error invisible" data-i18n=""></div>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" id="nom" placeholder="Nom*" style="text-transform: capitalize;">
+                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <input type="text" id="email" placeholder="Adresse e-mail*">
+                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                </div>
+                <div class="form-item">
+                    <input type="text" id="domain" placeholder="Domaine du projet*" style="text-transform: capitalize;">
+                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                </div>
+                <div class="form-item-languages">
+                    <div class="form-item">
+                        <input list="optionSource" id="langueSource" name="optionLangueSource" placeholder="Langue source">
+                        
+                        <datalist id="optionSource">
+                            <option value="Anglais" data-i18n=""></option>
+                            <option value="Français" data-i18n=""></option>
+                            <option value="Allemand" data-i18n=""></option>
+                        </datalist>
+                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                    </div>
+
+                    <div class="form-item">
+                        <input list="optionLangue" id="langueCible" name="optionLangueCible" placeholder="Langue cible">
+                        
+                        <datalist id="optionLangue">
+                            <option value="Anglais" data-i18n=""></option>
+                            <option value="Français" data-i18n=""></option>
+                            <option value="Allemand" data-i18n=""></option>
+                        </datalist>
+                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                    </div>
+
+                </div>
+                <div class="form-item">
+                    <textarea name="textarea" id="message" data-i18n="" placeholder="Message*" style="text-transform: capitalize;"></textarea>
+                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre dix et cent caractères</div>
+                </div>
+                <button id="btnForm" data-i18n="" type="submit">Envoyer</button>
 
   "footer": {
     "logoText": "Traducteur interprète",
