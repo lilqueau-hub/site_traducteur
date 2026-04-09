@@ -65,54 +65,48 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 })
 
+// Traduction en langues étrangères
+const i18nElements = document.querySelectorAll("[data-i18n]");
 
-const numBtn = document.querySelector('.numBtn')
-const sendNumber = []
+document.querySelectorAll("[data-lang]").forEach((button) => {
+    button.addEventListener("click", () => {
+        const lang = button.dataset.lang;
+        if (lang) {
+            loadLanguage(lang);
+        }
+    });
+});
 
-function sendNumber(e) {
-    const parent = e.target.closest('label')
-    const numTelInput = parent.querySelector('input')
-    const numTelInputValue = numTelInput.value
+const savedLanguage = localStorage.getItem("lang") || "fr";
+loadLanguage(savedLanguage);
 
-    if (inputValue !== "") {
-        sendNumber.push(numTelInputValue)
+function applyTranslations(translations) {
+    i18nElements.forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        const text = key ? translations[key] : null;
+        if (text) {
+            el.textContent = text;
+        }
+    });
+}
+
+async function loadLanguage(lang) {
+    if (!lang) {
+        return;
+    }
+
+    try {
+        const langFileUrl = new URL(`lang/${lang}.json`, window.location.href);
+        const response = await fetch(langFileUrl.href);
+        if (!response.ok) {
+            throw new Error(`Unable to load language file: ${lang}`);
+        }
+
+        const translations = await response.json();
+        applyTranslations(translations);
+
+        localStorage.setItem("lang", lang);
+    } catch (error) {
+        console.error(`Impossible de charger lang/${lang}.json`, error);
     }
 }
-numBtn.addEventListener('click', getValue)
-
-// async function sendNumber(){
-//     const numTel = document.getElementById('numTel')
-//     const numTelInput = document.getElementById('numTelInput')
-//     const numBtn = document.getElementById('numBtn')
-//  
-//     try{
-//      
-//     }
-// }
-// sendNumber()
-
-
-
-// const numBtn = document.getElementById('numBtn')
-// numBtn.addEventListener("submit", e =>{
-//     e.preventDefault();
-// })
-
-
-
-// document.getElementById('').addEventListener("submit", (e)=>{
-//     e.preventDefault();
-
-//     const numTel = document.getElementById('numTel')
-//     const numTelInput = document.getElementById('numTelInput')
-//     const numBtn = document.getElementById('numBtn')
-
-//     try {
-        
-//     }
-// })
-
-
-// Changement de langue grâce à des boutons
-
-// const choiceLanguages = document.getElementById('navLanguagesBtn')

@@ -76,6 +76,10 @@ nav {
     display: flex;
     list-style: none;
 }
+.navLanguagesBtn button {
+    background: none;
+    border: none;
+}
 .navLanguagesBtn img {
     height: 50px;
     width: 90%;

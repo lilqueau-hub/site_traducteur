@@ -20,16 +20,16 @@
                 <a href="index.html"><img src="img/logo-trad.jpg" alt=""></a>
             </div>
             <ul class="navList">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="tarif.html">Tarifs</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="home">Accueil</a></li>
+                <li><a href="services.html" data-i18n="services">Services</a></li>
+                <li><a href="tarif.html" data-i18n="pricing">Tarifs</a></li>
+                <li><a href="contact.html" data-i18n="contact">Contact</a></li>
             </ul>
 
             <ul class="navLanguagesBtn">
-                <li><a href=""><img src="img/illustration-du-drapeau-france_53876-27099.avif" alt=""></a></li>
-                <li><a href=""><img src="img/drapeau-du-royaume-uni-illustration-vectorielle_514344-299.avif" alt=""></a></li>
-                <li><a href=""><img src="img/illustration-du-drapeau-allemand_53876-27101.avif" alt=""></a></li>
+                <li><button id="franceLanguage" data-lang="fr"><img src="img/illustration-du-drapeau-france_53876-27099.avif" alt=""></button></li>
+                <li><button id="anglaisLanguage" data-lang="en"><img src="img/drapeau-du-royaume-uni-illustration-vectorielle_514344-299.avif" alt=""></button></li>
+                <li><button id="allemandLanguage" data-lang="all"><img src="img/illustration-du-drapeau-allemand_53876-27101.avif" alt=""></button></li>
             </ul>
         </nav>
         
@@ -45,14 +45,14 @@
         <div class="mobile-menu-body">
             <div class="mobile-menu-item">
                 <button class="mobile-menu-link">
-                    <a href="index.html">Accueil</a>
+                    <a href="index.html" data-i18n="home">Accueil</a>
                     <span class="icon-menu"></span>
                 </button>
             </div>
 
             <div class="mobile-menu-item">
                 <button class="mobile-menu-link">
-                    <a href="services.html">Services</a>
+                    <a href="services.html" data-i18n="services">Services</a>
                     <span class="icon-menu"></span>
                 </button>
                 
@@ -60,14 +60,14 @@
 
             <div class="mobile-menu-item">
                 <button class="mobile-menu-link">
-                    <a href="tarif.html">Tarifs</a>
+                    <a href="tarif.html" data-i18n="pricing">Tarifs</a>
                     <span class="icon-menu"></span>
                 </button>
             </div>
 
             <div class="mobile-menu-item">
                 <button class="mobile-menu-link">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" data-i18n="contact">Contact</a>
                     <span class="icon-menu"></span>
                 </button>
             </div>
@@ -221,21 +221,21 @@
     <footer>
         <div class="logoFooter">
             <img src="img/logo-trad_-_Copie-removebg-preview.png" alt="">
-            <p>Traducteur interprète</p>
+            <p data-i18n="">Traducteur interprète</p>
         </div>
 
         <div class="lienFooter">
-            <h3>Liens rapides</h3>
+            <h3 data-i18n="">Liens rapides</h3>
             <ul class="lienList">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="tarif.html">Tarifs</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="">Accueil</a></li>
+                <li><a href="services.html" data-i18n="">Services</a></li>
+                <li><a href="tarif.html" data-i18n="">Tarifs</a></li>
+                <li><a href="contact.html" data-i18n="">Contact</a></li>
             </ul>
         </div>
 
         <div class="contactFooter">
-            <h3>Contact</h3>
+            <h3 data-i18n="">Contact</h3>
             <div class="numContact">
                 <img src="img/phone-white-transparent-icon-115495000895pnrajsdqc-removebg-preview.png" alt="">
                 <p>06 04 41 88 30</p>
@@ -253,10 +253,10 @@
         </div>
 
         <div class="numeroSend">
-            <p>Déposez votre numéro de téléphone pour un rappel</p>
+            <p data-i18n="">Déposez votre numéro de téléphone pour un rappel</p>
             <div class="numTel">
-                <input class="numTelInput" type="tel" placeholder="Numéro de tél." id="numTelInput">
-                <button id="numBtn">Envoyer</button>
+                <input class="numTelInput" type="tel" data-i18n="" placeholder="Numéro de tél." id="numTelInput">
+                <button id="numBtn" data-i18n="">Envoyer</button>
             </div>
         </div>
     </footer>

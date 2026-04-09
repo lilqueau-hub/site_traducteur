@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Prices",
+    "contact": "Contact"
+  },
+
+  "titleImg": {
+    "first": "Translation of french texts in other languages",
+    "second": "Interpretation"
+  },
+  "whoAmI": {
+    "whoTitle": "Who Am I?",
+    "wholistOne": "Je m’appelle Rodolphe Quéau, je suis un traducteur interprète freelance spécialisé dans les langues allemandes et anglaises et suis capable de faire aussi bien de la traduction que de l’interprétariat.",
+    "wholistTwo": "J’ai déjà fait des traductions anglais-français pour  le milieu juridique, médical ainsi que cybersécurité ainsi qu’en allemand-français, des traductions avec le milieu technique et de l’environnement.",
+    "wholistThree": "Passionné depuis toujours dans les langues étrangères, j’ai suivi des études en Langues Etrangères Appliquées à l’Université Catholique de l’Ouest à Angers où j’ai obtenu une licence Langues Etrangères Appliquées avec une mineure Langue et Culture.",
+    "wholistFour": "Malgré le fait que j’ai eu un Bac Scientifique, mon intérêt s’est toujours porté sur les langues étrangères depuis aussi longtemps que je ne me souvienne et avait déjà un très bon niveau en anglais au lycée, ayant obtenu le B2 en Anglais à 17 ans."
+  },
+  "educations": {
+    "educTitle": "MY EDUCATION",
+    "educ1-H3": "2023-2025",
+    "educ1-H4": "Université Catholique de l'Ouest - Angers",
+    "educ1-P": "Master Traduction et Interprétation",
+    "educ2-H3": "2020-2023",
+    "educ2-H4": "Université Catholique de l'Ouest - Bretagne Nord et Angers",
+    "educ2-P": "Licence Langues Etrangères Appliquées, mineure Langue et Culture"
+  },
+  "traductionLists": {
+    "tradTitle": "Translation in other languages",
+    "traductionListOne-first": "French-English",
+    "traductionListOne-second": "French-German",
+    "traductionListTwo-first": "English-French",
+    "traductionListTwo-second": "German-French"
+  },
+  "contactSection": {
+    "contactTitle": "Do you have a project to translate ?",
+    "contactButton": "Contact me"
+  },
+
+  "footer": {
+    "logoText": "Traducteur interprète",
+    "footerLinks": "Links",
+    "footerHome": "Home",
+    "footerServices": "Services",
+    "footerPricing": "Prices",
+    "footerContact": "Contact",
+    "numeroText": "Input your phone number here",
+    "numeroInput": "Phone Number",
+    "numeroButton": "Send"
+  }
+}
