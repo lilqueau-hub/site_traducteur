@@ -21,7 +21,7 @@
     "educTitle": "MON EDUCATION",
     "educ1-H3": "2023-2025",
     "educ1-H4": "Université Catholique de l'Ouest - Angers",
-    "educ1-P": "Master Traduction et Interprétation",
+    "educ1-P": "Master Traduction et Interprétation Master",
     "educ2-H3": "2020-2023",
     "educ2-H4": "Université Catholique de l'Ouest - Bretagne Nord et Angers",
     "educ2-P": "Licence Langues Etrangères Appliquées, mineure Langue et Culture"
@@ -36,6 +36,16 @@
   "contactSection": {
     "contactTitle": "Avez-vous un projet à traduire",
     "contactButton": "Contactez-moi"
+  },
+
+
+  "traductionPrices": {
+    "tradTitle": "Traduction - Tarifs",
+    "tradText": "Voici les tarifs pour une traduction"
+  },
+  "interpretationPrices": {
+    "interTitle": "Interprétariat - Tarifs",
+    "interText": "Voici pour les tarifs pour une interprétation"
   },
 
   "footer": {

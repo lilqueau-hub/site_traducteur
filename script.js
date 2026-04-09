@@ -80,10 +80,22 @@ document.querySelectorAll("[data-lang]").forEach((button) => {
 const savedLanguage = localStorage.getItem("lang") || "fr";
 loadLanguage(savedLanguage);
 
+function flattenObject(obj, result = {}) {
+    for (const key in obj) {
+        if (typeof obj[key] === "object" && obj[key] !== null) {
+            flattenObject(obj[key], result);
+        } else {
+            result[key] = obj[key];
+        }
+    }
+    return result;
+}
+
 function applyTranslations(translations) {
+    const flat = flattenObject(translations);
     i18nElements.forEach((el) => {
         const key = el.getAttribute("data-i18n");
-        const text = key ? translations[key] : null;
+        const text = key ? flat[key] : null;
         if (text) {
             el.textContent = text;
         }
