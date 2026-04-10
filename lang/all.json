@@ -11,13 +11,13 @@
   },
   "whoAmI": {
     "whoTitle": "WER BIN ICH ?",
-    "wholistOne": "Je m’appelle Rodolphe Quéau, je suis un traducteur interprète freelance spécialisé dans les langues allemandes et anglaises et suis capable de faire aussi bien de la traduction que de l’interprétariat.",
-    "wholistTwo": "J’ai déjà fait des traductions anglais-français pour  le milieu juridique, médical ainsi que cybersécurité ainsi qu’en allemand-français, des traductions avec le milieu technique et de l’environnement.",
-    "wholistThree": "Passionné depuis toujours dans les langues étrangères, j’ai suivi des études en Langues Etrangères Appliquées à l’Université Catholique de l’Ouest à Angers où j’ai obtenu une licence Langues Etrangères Appliquées avec une mineure Langue et Culture.",
-    "wholistFour": "Malgré le fait que j’ai eu un Bac Scientifique, mon intérêt s’est toujours porté sur les langues étrangères depuis aussi longtemps que je ne me souvienne et avait déjà un très bon niveau en anglais au lycée, ayant obtenu le B2 en Anglais à 17 ans."
+    "wholistOne": "Mein Name ist Rodolphe Quéau, ich bin ein freiberuflicher Übersetzer-Dolmetscher mit den Schwerpunkten Deutsch und Englisch und kann sowohl übersetzen als auch dolmetschen.",
+    "wholistTwo": "Ich habe bereits Englisch-Französisch-Übersetzungen für die Bereiche Recht, Medizin und Cybersicherheit sowie Deutsch-Französisch-Übersetzungen für die Bereiche Technik und Umwelt angefertigt.",
+    "wholistThree": "Da ich mich immer für Fremdsprachen interessiere, habe ich Angewandte Fremdsprachen an der Katholischen Universität des Westens in Angers studiert, wo ich einen Abschluss in Angewandten Fremdsprachen mit Nebenfach Sprache und Kultur erworben habe.",
+    "wholistFour": "Trotz der Tatsache, dass ich ein wissenschaftliches Abitur hatte, interessierte ich mich schon seit ich denken kann für Fremdsprachen und hatte bereits in der High School ein sehr gutes Niveau in Englisch, nachdem ich mit 17 Jahren das B2 in Englisch erlangt hatte."
   },
   "educations": {
-    "educTitle": "MON EDUCATION",
+    "educTitle": "MEINE AUSBILDUNG",
     "educ1-H3": "2023-2025",
     "educ1-H4": "Université Catholique de l'Ouest - Angers",
     "educ1-P": "Master Traduction et Interprétation Master",
@@ -26,88 +26,88 @@
     "educ2-P": "Licence Langues Etrangères Appliquées, mineure Langue et Culture"
   },
   "traductionLists": {
-    "tradTitle": "Traductions en plusieurs langues possibles",
-    "traductionListOne-first": "Français-Anglais",
-    "traductionListOne-second": "Français-Allemand",
-    "traductionListTwo-first": "Anglais-Français",
-    "traductionListTwo-second": "Allemand-Français"
+    "tradTitle": "Übersetzungen in mehrere Sprachen möglich",
+    "traductionListOne-first": "Französisch-Englisch",
+    "traductionListOne-second": "Französisch-Deutsch",
+    "traductionListTwo-first": "Englisch-Französisch",
+    "traductionListTwo-second": "Deutsch-Französisch"
   },
   "contactSection": {
-    "contactTitle": "Avez-vous un projet à traduire",
-    "contactButton": "Contactez-moi"
+    "contactTitle": "Haben Sie ein Projekt zu übersetzen?",
+    "contactButton": "Kontaktieren mich"
   },
   "tradServices": {
-    "tradServicesTitle": "Traduction et interprétariat",
-    "textList-One": "Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.",
-    "textList-Two": "Être bilingue ne suffit pas, le traducteur doit avant tout maîtriser parfaitement sa langue maternelle et savoir en dégager toutes les subtilités.",
-    "textList-Three": "De plus, nous vous conseillons de vous adresser à un expert dans son domaine de spécialité."
+    "tradServicesTitle": "Übersetzen und Dolmetschen",
+    "textList-One": "Beim Übersetzen geht es nicht nur darum, ein Äquivalent von einer Sprache in eine andere zu finden, sondern auch darum, den Geist des Originaldokuments bestmöglich zu transkribieren, damit es von den Sprechern der Zielsprache vollständig verstanden wird, ohne seine Bedeutung zu verfälschen.",
+    "textList-Two": "Zweisprachig zu sein reicht nicht aus; Der Übersetzer muss vor allem seine Muttersprache perfekt beherrschen und alle Feinheiten hervorheben können.",
+    "textList-Three": "Darüber hinaus empfehlen wir Ihnen, sich an einen Experten auf seinem Fachgebiet zu wenden."
   },
   "methods": {
-    "methodTitle": "Méthodes",
-    "reception": "Réception",
-    "research": "Recherche",
-    "translate": "Traduction",
-    "re-read": "Relecture",
-    "amelioration": "Amélioration",
-    "check": "Vérification",
-    "livraison": "Livraison",
-    "methodContact": "Besoin d'une traduction",
-    "methodContactLink": "Contactez-moi"
+    "methodTitle": "Methoden",
+    "reception": "Rezeption",
+    "research": "Forschung",
+    "translate": "Übersetzung",
+    "re-read": "Korrekturlesen",
+    "amelioration": "Verbesserung",
+    "check": "Überprüfung",
+    "livraison": "Lieferung",
+    "methodContact": "Brauche eine Übersetzung",
+    "methodContactLink": "Kontaktieren Sie mich"
   },
   "translationInterpretation": {
-    "translationServiceTitle": "Services",
-    "translationServiceText": "Voici les services proposés pour la traduction",
-    "personnalDocumentTitle": "Traduction de documents personnels",
-    "personnalDocumentText": "Traduction de lettres manuscrites ou dactylographiées, témoignages...",
-    "officialDocumentTitle": "Traduction de documents officiels",
-    "officialDocumentText": "Traduction de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
-    "DocumentTitle": "Traduction de documents",
-    "DocumentText": "Traduction de documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
-    "interpretationServiceText": "Voici les services proposés pour l'interprétation",
-    "ConsecutiveSiteTitle": "Interprétariat consécutif - sur site",
-    "ConsecutiveSiteText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.",
-    "ConsecutivePhoneTitle": "Interprétariat consécutif - par téléphone (ou internet)",
-    "ConsecutivePhoneText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de communication comptés en sus de la durée de la prestation."
+    "translationServiceTitle": "Dienstleistungen",
+    "translationServiceText": "Hier finden Sie die angebotenen Dienstleistungen für Übersetzungen",
+    "personnalDocumentTitle": "Übersetzung persönlicher Dokumente",
+    "personnalDocumentText": "Übersetzung von handgeschriebenen oder getippten Briefen, Zeugnissen...",
+    "officialDocumentTitle": "Übersetzung offizieller Dokumente",
+    "officialDocumentText": "Übersetzung offizieller Dokumente oder Beglaubigung bereits übersetzter Dokumente: Führerschein, Heiratsurkunde usw.",
+    "DocumentTitle": "Dokumentenübersetzung",
+    "DocumentText": "Übersetzung von Handelsdokumenten: Broschüren, Leitfäden, Preise, Zollerklärungen, Transportdokumente, Bestellungen, Rechnungen usw.",
+    "interpretationServiceText": "Hier finden Sie die angebotenen Dolmetschleistungen",
+    "ConsecutiveSiteTitle": "Konsekutivdolmetschen – vor Ort",
+    "ConsecutiveSiteText": "Konsekutivdolmetschen (jeder Gesprächspartner wartet auf das Ende der laufenden Übersetzung, um fortfahren zu können), wird am Ort der Besprechung durchgeführt. Zusätzlich zur Dauer der Dienstleistung werden Reisekosten angerechnet.",
+    "ConsecutivePhoneTitle": "Konsekutivdolmetschen – per Telefon (oder Internet)",
+    "ConsecutivePhoneText": "Konsekutivdolmetschen (jeder Gesprächspartner wartet auf das Ende der laufenden Übersetzung, um fortfahren zu können), wird am Ort der Besprechung durchgeführt. Kommunikationskosten werden zusätzlich zur Dauer der Dienstleistung gezählt."
   },
   "traductionPrices": {
-    "tradTitle": "Traduction - Tarifs",
-    "tradText": "Voici les tarifs pour une traduction"
+    "tradTitle": "Übersetzung - Preise",
+    "tradText": "Hier finden Sie die Preise für eine Übersetzung"
   },
   "interpretationPrices": {
-    "interTitle": "Interprétariat - Tarifs",
-    "interText": "Voici pour les tarifs pour une interprétation"
+    "interTitle": "Dolmetschen - Preise",
+    "interText": "Hier finden Sie die Preise für eine Dolmetschung"
   },
   "contactInfo": {
-    "contactInfoTitle": "Contact",
-    "contactInfoP": "Vous pouvez me contacter par le moyen de votre choix",
-    "textPhoneTitle": "Par téléphone",
-    "textEmailTitle": "Par e-mail"
+    "contactInfoTitle": "Kontakt",
+    "contactInfoP": "Sie können mich auf jedem beliebigen Weg kontaktieren",
+    "textPhoneTitle": "Per Telefon",
+    "textEmailTitle": "Per E-Mail"
   },
   "formContact": {
-    "formContactTitle": "Formulaire de contact",
-    "formContactText": "Utilisez le formulaire de contact pour me contacter sans plus tarder",
-    "formContactError": "Ce champ doit contenir entre deux et dix caractères",
-    "formName": "Prénom*",
-    "formSurname": "Nom*",
-    "formMail": "Adresse e-mail*",
-    "formDomain": "Domaine du projet*",
-    "formMessage": "Message*",
-    "formButton": "Envoyer",
-    "formLanguageSource": "Langue source",
-    "formLanguageCible": "Langue cible",
-    "formLanguageFrench": "Français",
-    "formLanguageEnglish": "Anglais",
-    "formLanguageGerman": "Allemand"
+    "formContactTitle": "Kontaktformular",
+    "formContactText": "Nutzen Sie das Kontaktformular, um umgehend mit mir Kontakt aufzunehmen",
+    "formContactError": "Dieses Feld muss zwischen zwei und zehn Zeichen enthalten",
+    "formName": "Vorname*",
+    "formSurname": "Name*",
+    "formMail": "E-Mail-Adresse*",
+    "formDomain": "Projektgebiet*",
+    "formMessage": "Nachricht*",
+    "formButton": "Schicken",
+    "formLanguageSource": "Ausgangssprache",
+    "formLanguageCible": "Zielsprache",
+    "formLanguageFrench": "Französisch",
+    "formLanguageEnglish": "Englisch",
+    "formLanguageGerman": "Deutsch"
   },
   "footer": {
-    "logoText": "Traducteur interprète",
-    "footerLinks": "Liens rapides",
+    "logoText": "Dolmetscher-Übersetzer",
+    "footerLinks": "Schnelle Links",
     "footerHome": "Haus",
     "footerServices": "Dienstleistungen",
     "footerPrices": "Preise",
     "footerContact": "Kontakt",
-    "numeroText": "Déposez votre numéro de téléphone pour un rappel",
-    "numeroInput": "Numéro de tel",
-    "numeroButton": "Envoyer"
+    "numeroText": "Hinterlassen Sie Ihre Telefonnummer für einen Rückruf",
+    "numeroInput": "Telefonnummer",
+    "numeroButton": "Schicken"
   }
 }
