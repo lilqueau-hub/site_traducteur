@@ -63,9 +63,9 @@
     "translationServiceText": "Here are the services proposed for a translation",
 
     "personnalDocumentTitle": "Translation of personnal documents",
-    "personnalDocumentText": "Translation de lettres manuscrites ou dactylographiées, témoignages...",
+    "personnalDocumentText": "Translation of lettres manuscrites ou dactylographiées, témoignages...",
     "officialDocumentTitle": "Translation of official documents",
-    "officialDocumentText": "Translation de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
+    "officialDocumentText": "Translation of official documents ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
     "DocumentTitle": "Translation of documents",
     "DocumentText": "Translation of documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
 
@@ -96,10 +96,24 @@
   },
   "formContact": {
     "formContactTitle": "Contact Form",
-    "formContactText": " Use the form to contact me without waiting"
+    "formContactText": " Use the form to contact me without waiting",
 
+    "formContactError": "This field must contain between two and ten characters",
     
+    "formName": "Name*",
+    "formSurname": "Surname*",
+    "formMail": "E-mail*",
+    "formDomain": "Domain project*",
+    "formMessage": "Message*",
+    "formButton": "Send",
+
+    "formLanguageSource": "Langue source",
+    "formLanguageCible": "Langue cible",
+    "formLanguageFrench": "French",
+    "formLanguageEnglish": "English",
+    "formLanguageGerman": "German"
   },
+
 
 
   

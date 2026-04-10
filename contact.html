@@ -135,51 +135,50 @@
                 <form id="formulaire" action="">
                 <div class="form-item-fullname">
                     <div class="form-item">
-                        <input type="text" id="prenom" placeholder="Prénom*" style="text-transform: capitalize;">
-                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                        <input type="text" id="prenom" data-i18n="formName" placeholder="Prénom*" style="text-transform: capitalize;">
+                        <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
                     <div class="form-item">
-                        <input type="text" id="nom" placeholder="Nom*" style="text-transform: capitalize;">
-                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                        <input type="text" id="nom" data-i18n="formSurname" placeholder="Nom*" style="text-transform: capitalize;">
+                        <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
                 </div>
                 <div class="form-item">
-                    <input type="text" id="email" placeholder="Adresse e-mail*">
-                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                    <input type="text" id="email" data-i18n="formMail" placeholder="Adresse e-mail*">
+                    <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                 </div>
                 <div class="form-item">
-                    <input type="text" id="domain" placeholder="Domaine du projet*" style="text-transform: capitalize;">
-                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                    <input type="text" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*" style="text-transform: capitalize;">
+                    <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                 </div>
                 <div class="form-item-languages">
                     <div class="form-item">
-                        <input list="optionSource" id="langueSource" name="optionLangueSource" placeholder="Langue source">
+                        <input list="optionSource" id="langueSource" data-i18n="formLanguageSource" name="optionLangueSource" placeholder="Langue source">
                         
                         <datalist id="optionSource">
-                            <option value="Anglais" data-i18n=""></option>
-                            <option value="Français" data-i18n=""></option>
-                            <option value="Allemand" data-i18n=""></option>
+                            <option value="Anglais" data-i18n="formLanguageEnglish"></option>
+                            <option value="Français" data-i18n="formLanguageFrench"></option>
+                            <option value="Allemand" data-i18n="formLanguageGerman"></option>
                         </datalist>
-                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                        <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
 
                     <div class="form-item">
-                        <input list="optionLangue" id="langueCible" name="optionLangueCible" placeholder="Langue cible">
+                        <input list="optionLangue" id="langueCible" data-i18n="formLanguageCible" name="optionLangueCible" placeholder="Langue cible">
                         
                         <datalist id="optionLangue">
-                            <option value="Anglais" data-i18n=""></option>
-                            <option value="Français" data-i18n=""></option>
-                            <option value="Allemand" data-i18n=""></option>
+                            <option value="Anglais" data-i18n="formLanguageEnglish"></option>
+                            <option value="Français" data-i18n="formLanguageFrench"></option>
+                            <option value="Allemand" data-i18n="formLanguageGerman"></option>
                         </datalist>
-                        <div class="error invisible" data-i18n="">Ce champ doit contenir entre deux et dix caractères</div>
+                        <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                     </div>
-
                 </div>
                 <div class="form-item">
-                    <textarea name="textarea" id="message" data-i18n="" placeholder="Message*" style="text-transform: capitalize;"></textarea>
-                    <div class="error invisible" data-i18n="">Ce champ doit contenir entre dix et cent caractères</div>
+                    <textarea name="textarea" id="message" data-i18n="formMessage" placeholder="Message*" style="text-transform: capitalize;"></textarea>
+                    <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre dix et cent caractères</div>
                 </div>
-                <button id="btnForm" data-i18n="" type="submit">Envoyer</button>
+                <button id="btnForm" data-i18n="formButton" type="submit">Envoyer</button>
             </form>
             </div>
             
