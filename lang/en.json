@@ -6,12 +6,12 @@
     "contact": "Contact"
   },
   "titleImg": {
-    "first": "Translation of english texts in other languages",
+    "first": "Translation of french texts in other languages",
     "second": "Interpretation"
   },
   "whoAmI": {
     "whoTitle": "Who Am I?",
-    "wholistOne": "My name is Rodolphe Quéau, I am a freelance translator-interpreter specializing in German and English languages ​​and am able to do both translation and interpretation.",
+    "wholistOne": "My name is Rodolphe Quéau, I'm a freelance translator-interpreter specializing in German, French and English languages ​​and am able to do both translation and interpretation.",
     "wholistTwo": "I have already done English-French translations for the legal, medical and cybersecurity sectors as well as German-French translations with the technical and environmental sectors.",
     "wholistThree": "Always passionate about foreign languages, I studied Applied Foreign Languages ​​at the Catholic University of the West in Angers where I obtained a degree in Applied Foreign Languages ​​with a minor in Language and Culture.",
     "wholistFour": "Despite the fact that I had a Scientific Baccalaureate, my interest has always been in foreign languages ​​for as long as I can remember and already had a very good level in English in high school, having obtained the B2 in English at 17 years old."
@@ -33,7 +33,7 @@
     "traductionListTwo-second": "German-French"
   },
   "contactSection": {
-    "contactTitle": "Do you have a project to translate ?",
+    "contactTitle": "Do you have a new project to translate ?",
     "contactButton": "Contact me"
   },
   "tradServices": {
