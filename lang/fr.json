@@ -5,7 +5,6 @@
     "pricing": "Tarifs",
     "contact": "Contact"
   },
-
   "titleImg": {
     "first": "Traduction en langue française de textes étrangers",
     "second": "Interprétariat"
@@ -37,9 +36,6 @@
     "contactTitle": "Avez-vous un projet à traduire",
     "contactButton": "Contactez-moi"
   },
-
-
-
   "tradServices": {
     "tradServicesTitle": "Traduction et interprétariat",
     "textList-One": "Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.",
@@ -55,28 +51,24 @@
     "amelioration": "Amélioration",
     "check": "Vérification",
     "livraison": "Livraison",
-
     "methodContact": "Besoin d'une traduction",
     "methodContactLink": "Contactez-moi"
   },
   "translationInterpretation": {
     "translationServiceTitle": "Services",
     "translationServiceText": "Voici les services proposés pour la traduction",
-
     "personnalDocumentTitle": "Traduction de documents personnels",
     "personnalDocumentText": "Traduction de lettres manuscrites ou dactylographiées, témoignages...",
     "officialDocumentTitle": "Traduction de documents officiels",
     "officialDocumentText": "Traduction de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
     "DocumentTitle": "Traduction de documents",
     "DocumentText": "Traduction de documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
-
     "interpretationServiceText": "Voici les services proposés pour l'interprétation",
     "ConsecutiveSiteTitle": "Interprétariat consécutif - sur site",
     "ConsecutiveSiteText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.",
     "ConsecutivePhoneTitle": "Interprétariat consécutif - par téléphone (ou internet)",
     "ConsecutivePhoneText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de communication comptés en sus de la durée de la prestation."
   },
-
   "traductionPrices": {
     "tradTitle": "Traduction - Tarifs",
     "tradText": "Voici les tarifs pour une traduction"
@@ -85,38 +77,28 @@
     "interTitle": "Interprétariat - Tarifs",
     "interText": "Voici pour les tarifs pour une interprétation"
   },
-
-
-
   "contactInfo": {
     "contactInfoTitle": "Contact",
     "contactInfoP": "Vous pouvez me contacter par le moyen de votre choix",
-
     "textPhoneTitle": "Par téléphone",
     "textEmailTitle": "Par e-mail"
   },
   "formContact": {
     "formContactTitle": "Formulaire de contact",
     "formContactText": "Utilisez le formulaire de contact pour me contacter sans plus tarder",
-    
     "formContactError": "Ce champ doit contenir entre deux et dix caractères",
-
     "formName": "Prénom*",
     "formSurname": "Nom*",
     "formMail": "Adresse e-mail*",
     "formDomain": "Domaine du projet*",
     "formMessage": "Message*",
     "formButton": "Envoyer",
-
     "formLanguageSource": "Langue source",
     "formLanguageCible": "Langue cible",
     "formLanguageFrench": "Français",
     "formLanguageEnglish": "Anglais",
     "formLanguageGerman": "Allemand"
   },
- 
-
-  
   "footer": {
     "logoText": "Traducteur interprète",
     "footerLinks": "Liens rapides",

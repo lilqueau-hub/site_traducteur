@@ -5,7 +5,6 @@
     "pricing": "Prices",
     "contact": "Contact"
   },
-
   "titleImg": {
     "first": "Translation of french texts in other languages",
     "second": "Interpretation"
@@ -37,8 +36,6 @@
     "contactTitle": "Do you have a project to translate ?",
     "contactButton": "Contact me"
   },
-
-
   "tradServices": {
     "tradServicesTitle": "Translation and interpretation",
     "textList-One": "Translating is not just about finding an equivalent from one language to another, it is about transcribing as best as possible the spirit of the original document so that it is completely understood by speakers of the target language, without distorting its meaning.",
@@ -54,29 +51,24 @@
     "amelioration": "Amelioration",
     "check": "Checking",
     "livraison": "Delivery",
-
     "methodContact": "Need of a translation",
     "methodContactLink": "Contact me"
   },
   "translationInterpretation": {
     "translationServiceTitle": "Services",
     "translationServiceText": "Here are the services proposed for a translation",
-
     "personnalDocumentTitle": "Translation of personnal documents",
     "personnalDocumentText": "Translation of lettres manuscrites ou dactylographiées, témoignages...",
     "officialDocumentTitle": "Translation of official documents",
     "officialDocumentText": "Translation of official documents ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
     "DocumentTitle": "Translation of documents",
     "DocumentText": "Translation of documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
-
     "interpretationServiceText": "Here are the services proposed for an interpretation",
     "ConsecutiveSiteTitle": "Consecutive interpretation - on site",
     "ConsecutiveSiteText": "Consecutive interpreting (each interlocutor waiting for the end of the translation in progress to continue), carried out at the meeting location. Travel costs counted in addition to the duration of the service.",
     "ConsecutivePhoneTitle": "Consecutive interpretation - by phone (or internet)",
     "ConsecutivePhoneText": "Consecutive interpreting (each interlocutor waiting for the end of the translation in progress to continue), carried out at the meeting location. Communication costs counted in addition to the duration of the service."
   },
-
-  
   "traductionPrices": {
     "traductionTitle": "Translation - Prices",
     "tradText": "Here are the prices for a translation"
@@ -85,38 +77,28 @@
     "interTitle": "Interpretation - Prices",
     "interText": "Here are the prices for an interpretation"
   },
-
-
   "contactInfo": {
     "contactInfoTitle": "Contact",
     "contactInfoP": "You can contact me by the way you prefer",
-
     "textPhoneTitle": "By phone",
     "textEmailTitle": "By E-mail"
   },
   "formContact": {
     "formContactTitle": "Contact Form",
     "formContactText": " Use the form to contact me without waiting",
-
     "formContactError": "This field must contain between two and ten characters",
-    
     "formName": "Name*",
     "formSurname": "Surname*",
     "formMail": "E-mail*",
     "formDomain": "Domain project*",
     "formMessage": "Message*",
     "formButton": "Send",
-
     "formLanguageSource": "Langue source",
     "formLanguageCible": "Langue cible",
     "formLanguageFrench": "French",
     "formLanguageEnglish": "English",
     "formLanguageGerman": "German"
   },
-
-
-
-  
   "footer": {
     "logoText": "Translator interpret",
     "footerLinks": "Fast links",
