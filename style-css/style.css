@@ -145,6 +145,7 @@ nav {
     padding: 3rem;
 }
 .title-img h1 {
+    font-family: Tahoma;
     color: white;
     margin: 25px;
     font-weight: 500;
@@ -214,6 +215,7 @@ nav {
     height: 50%;
 }
 .myEducation h2 {
+    font-family: Tahoma;
     margin-top: 15px;
     width: 50%;
     color: #212E53;
@@ -234,6 +236,7 @@ nav {
 }
 .Educ1 p {
     margin-top: 15px;
+    font-family: Verdana;
 }
 
 .Educ2 {
@@ -242,6 +245,9 @@ nav {
 .Educ2 h3 {
     color: #AE0000;
     margin-bottom: 5px;
+}
+.Educ2 p {
+    font-family: Verdana;
 }
 
 
@@ -261,6 +267,7 @@ nav {
     background-color: white;
 }
 .traductionLanguage h2 {
+    font-family: Tahoma;
     color: #212E53;
     text-align: center;
     margin-top: 15px;
@@ -292,6 +299,8 @@ nav {
     font-size: 18px;
 }
 .contactLink h2 {
+    font-family: Tahoma;
+    margin-bottom: 15px;
     padding: 15px;
     text-align: center;
     font-weight: 600;

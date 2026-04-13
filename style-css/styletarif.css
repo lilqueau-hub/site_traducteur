@@ -29,6 +29,7 @@ tbody {
 .traductionPrices p {
     font-size: 18px;
     text-align: center;
+    font-family: Verdana;
     padding-bottom: 15px;
 }
 .traductionPrices h2 {
@@ -37,6 +38,7 @@ tbody {
     color: #212E53;
     margin-bottom: 10px;
     margin-top: 15px;
+    font-family: Tahoma;
 }
 
 
@@ -47,6 +49,7 @@ tbody {
     font-size: 18px;
     text-align: center;
     padding-bottom: 15px;
+    font-family: Verdana;
 }
 .interpretariatTarif h2 {
     padding: 5px;
@@ -54,6 +57,7 @@ tbody {
     color: #212E53;
     margin-bottom: 10px;
     margin-top: 15px;
+    font-family: Tahoma;
 }
 @media (max-width: 1025px) {
     .traductionPrices h2 {
