@@ -14,19 +14,21 @@
 }
 
 .img-trad {
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+    margin-right: 35%;
+    width: 80%;
+    height: 500px;
+    
 }
 .img-trad img{
-    width: 720px;
+    width: 90%;
     height: 500px;
 }
 .traductionText {
     width: 671px;
     background-color: #707380;
     padding: 3rem;
-    margin-top: -45px;
+    margin-top: -15%;
+    margin-left: 35%;
     position: relative;
 }
 .textList {
@@ -194,12 +196,13 @@
     }
     .img-trad {
         height: 200px;
-        max-width: 100%;
         width: 100%;
+        
     }
     .img-trad img {
         max-width: 100%;
         width: 100%;
+        object-fit: cover;
     }
 
     .traductionInterpretariat {
@@ -214,7 +217,9 @@
         justify-content: center;
         margin: 0 auto;
     }
-    
+    /* .tradInter {
+        object-fit: fill;
+    } */
 
     .methods {
         justify-content: center;
