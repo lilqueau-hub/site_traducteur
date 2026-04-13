@@ -34,7 +34,9 @@
     display: flex;
     flex-direction: column;
 }
-
+.moyenChoix p {
+    color: #212E53;
+}
 .telephoneContact {
     width: 75%;
     margin: 0 auto;
@@ -101,7 +103,6 @@
 .formContact h3 {
     padding-bottom: 10px;
     font-family: Tahoma;
-    color: #212E53;
 }
 
 .container button {
