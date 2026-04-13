@@ -365,6 +365,9 @@ footer {
     font-size: 15px;
     gap: 5px;
 }
+.lienList li {
+    margin-bottom: 2px;
+}
 .lienList a {
     text-decoration: none;
     color: white;
@@ -387,6 +390,7 @@ footer {
 }
 .numContact {
     display: flex;
+    
 }
 .numContact img{
     width: 16px;
@@ -398,6 +402,8 @@ footer {
 }
 
 .mailContact {
+    margin-top: 2px;
+    margin-bottom: 2px;
     display: flex;
 }
 .mailContact img {
