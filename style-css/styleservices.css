@@ -217,11 +217,9 @@
         justify-content: center;
         margin: 0 auto;
     }
-    /* .tradInter {
-        object-fit: fill;
-        width: 100%;
-        background-image: contain;
-    } */
+    .tradInter {
+        max-width: 100%;
+    }
 
     .methods {
         justify-content: center;
