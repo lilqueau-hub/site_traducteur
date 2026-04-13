@@ -109,7 +109,7 @@
     color: white;
     border: solid #ffffff;
     padding: 10px;   
-    margin: 0 auto ;
+    margin-left: 80%;
     width: 155px;
     text-decoration: none;
     font-size: 16px;
@@ -209,6 +209,9 @@
         flex-direction: column;
         border-radius: 5px;
         padding: 45px;
+    }
+    .container button {
+        margin: 0 auto;
     }
 
     .form-item-fullname {
