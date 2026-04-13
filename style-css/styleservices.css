@@ -219,6 +219,8 @@
     }
     /* .tradInter {
         object-fit: fill;
+        width: 100%;
+        background-image: contain;
     } */
 
     .methods {
