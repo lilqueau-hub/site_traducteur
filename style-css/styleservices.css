@@ -100,9 +100,18 @@
     background-color: rgb(255, 0, 0);
 }
 .contactMoi a {
+    padding: 25px;
     text-decoration: none;
     color: white;
     font-family: Verdana;
+}
+.contactMoi p {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 

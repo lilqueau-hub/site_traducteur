@@ -137,8 +137,7 @@ nav {
 }
 
 .title-img {
-    background-color: rgb(255, 255, 255);
-    background-blend-mode: lighten;
+    background-blend-mode: darken;
     height: 500px;
     background: url(../img/3073-translation-service.jpg);
     background-size: cover;
@@ -149,12 +148,12 @@ nav {
     color: white;
     margin: 25px;
     font-weight: 500;
-    text-shadow: 
+    /* text-shadow: 
         -1px -1px 0 #000000,
         1px -1px 0 #000000,
         -1px 1px 0 #000000,
         1px 1px 0 #000000
-    ;
+    ; */
 }
 
 
