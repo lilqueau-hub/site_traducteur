@@ -120,7 +120,7 @@
                 <p data-i18n="formContactText">Utilisez le formulaire de contact pour me contacter sans plus tarder</p>
             </div>
             <div class="container">
-                <form id="formulaire" action="">
+                <form id="formulaire" action="contact.php" method="post">
                 <div class="form-item-fullname">
                     <div class="form-item">
                         <input type="text" id="prenom" data-i18n="formName" placeholder="Prénom*" style="text-transform: capitalize;">
@@ -136,7 +136,7 @@
                     <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                 </div>
                 <div class="form-item">
-                    <input type="text" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*" style="text-transform: capitalize;">
+                    <input type="text" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*">
                     <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
                 </div>
                 <div class="form-item-languages">
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 <div class="form-item">
-                    <textarea name="textarea" id="message" data-i18n="formMessage" placeholder="Message*" style="text-transform: capitalize;"></textarea>
+                    <textarea name="textarea" id="message" data-i18n="formMessage" placeholder="Message*"></textarea>
                     <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre dix et cent caractères</div>
                 </div>
                 <button id="btnForm" data-i18n="formButton" type="submit">Envoyer</button>

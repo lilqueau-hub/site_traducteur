@@ -100,7 +100,6 @@
     background-color: rgb(255, 0, 0);
 }
 .contactMoi a {
-    padding: 25px;
     text-decoration: none;
     color: white;
     font-family: Verdana;
@@ -110,7 +109,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
 }
 
@@ -215,7 +214,8 @@
     .img-trad {
         height: 200px;
         width: 100%;
-        
+        max-width: 100%;
+        display: block;
     }
     .img-trad img {
         max-width: 100%;
@@ -224,10 +224,11 @@
     }
 
     .traductionInterpretariat {
-        /* margin-bottom: 25px; */
         font-size: 1.2rem;
-        padding: 10px;
+    }
+    .traductionInterpretariat h2 {
         margin: 10px;
+        padding: 10px;
     }
     .traductionText {
         width: 400px;
