@@ -65,3 +65,18 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . "\r\n";
 if(mail($adress, $e_subject, $msg, $headers)) {
    echo "<fieldset><div id='success_page'><h4 class='remove-bottom'>Email Sent Successfully.</h4><p>Thank you <strong>$name</strong>, your message has been submitted to us.</p></div></fieldset>"; 
 }
+
+
+
+if (!$_POST) exit;
+
+function tommus_numero_validate($numero) {return filter_var($numero, FILTER_VALIDATE_EMAIL) && preg_match('/@.+\./', $numero); }
+
+$numero = $_POST['numTelInput'];
+$numBtn = $_POST['numBtn'];
+
+if(trim($numero) == '') {
+   
+} else if(trim($btnform) =='Envoyer') {
+    exit('<div class="alert danger"></div>');
+}

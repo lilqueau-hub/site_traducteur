@@ -137,23 +137,37 @@ nav {
 }
 
 .title-img {
-    background-blend-mode: darken;
     height: 500px;
-    background: url(../img/3073-translation-service.jpg);
     background-size: cover;
-    padding: 3rem;
+}
+.titleImg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.backgroundTitle {
+    background-color: black;
+    opacity: 35%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.titleDiv {
+    position: absolute;
 }
 .title-img h1 {
     font-family: Tahoma;
     color: white;
     margin: 25px;
     font-weight: 500;
-    /* text-shadow: 
-        -1px -1px 0 #000000,
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000
-    ; */
+}
+.title-img h2 {
+    font-family: Tahoma;
+    color: white;
+    margin: 25px;
+    font-weight: 500;
+    font-size: 3rem;
 }
 
 
@@ -566,10 +580,10 @@ input:focus {
         margin-bottom: 5px;
     }
     
-    .title-img h1 {
+    /* .title-img h1 {
         font-size: 25px;
        
-    }
+    } */
     footer {
         display: flex;
         flex-direction: column;
