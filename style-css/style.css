@@ -141,7 +141,7 @@ nav {
     background-size: cover;
 }
 .titleImg {
-    height: 100%;
+    height: 500px;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -149,7 +149,7 @@ nav {
 .backgroundTitle {
     background-color: black;
     opacity: 35%;
-    height: 100%;
+    height: 500px;
     width: 100%;
     position: absolute;
 }
