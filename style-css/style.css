@@ -156,6 +156,13 @@ nav {
 .titleDiv {
     position: absolute;
 }
+.titleDiv {
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin: auto 0;
+}
 .title-img h1 {
     font-family: Tahoma;
     color: white;
@@ -185,7 +192,6 @@ nav {
     width: 450px;
     height: 560px;
     margin-bottom: 15px;
-    
 }
 .who-div h2 {
     margin-bottom: 15px;
@@ -194,6 +200,7 @@ nav {
 }
 .whoList {
     list-style: none;
+    padding-left: 20px;
     
 }
 .whoList li {
@@ -493,7 +500,6 @@ input:focus {
 }
 
 @media (max-width: 1025px) {
-
     header {
         display: flex;
         justify-content: space-between;
@@ -512,7 +518,7 @@ input:focus {
     }
     .navLanguagesBtn img {
         width: 50px;
-        height: 40%;
+        height: 30px;
         gap: 5px;
     }
     .menuBurger {
