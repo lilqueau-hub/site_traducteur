@@ -167,13 +167,13 @@ nav {
     font-family: Tahoma;
     color: white;
     margin: 25px;
-    font-weight: 500;
+    font-weight: 800;
 }
 .title-img h2 {
     font-family: Tahoma;
     color: white;
     margin: 25px;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 3rem;
 }
 
@@ -195,7 +195,7 @@ nav {
 }
 .who-div h2 {
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: Tahoma;
 }
 .whoList {
@@ -239,7 +239,7 @@ nav {
     margin-top: 15px;
     width: 50%;
     color: #212E53;
-    font-weight: 400;
+    font-weight: 700;
 }
 .educations {
     margin-top: 35px;
@@ -291,7 +291,7 @@ nav {
     color: #212E53;
     text-align: center;
     margin-top: 15px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 .traductionTwoList {

@@ -36,6 +36,7 @@ tbody {
     color: #212E53;
     margin-bottom: 10px;
     margin-top: 15px;
+    font-weight: 700;
     font-family: Tahoma;
 }
 
@@ -55,6 +56,7 @@ tbody {
 }
 .interpretariatTarif h2 {
     color: #212E53;
+    font-weight: 700;
     margin-bottom: 10px;
     margin-top: 15px;
     font-family: Tahoma;

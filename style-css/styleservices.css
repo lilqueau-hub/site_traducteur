@@ -9,6 +9,7 @@
 .traductionInterpretariat h2 {
     width: 65%;
     margin: 25px;
+    font-weight: 700;
     color: #494E5F;
     font-family: Tahoma;
 }
@@ -126,6 +127,7 @@
 .services h2{
     color: #212E53;
     padding-bottom: 5px;
+    font-weight: 700;
     width: 70%;
     font-family: Tahoma;
 }
