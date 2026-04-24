@@ -122,3 +122,73 @@ async function loadLanguage(lang) {
         console.error(`Impossible de charger lang/${lang}.json`, error);
     }
 }
+
+
+// Formulaire changement language pour les placeholder
+
+// document.querySelector('#togBtn').addEventListener('input', (event) => {
+//   document.querySelector('.usrplaceholder').placeholder = data[event.currentTarget.checked ? 'japanese' : 'english'].usrplaceholder;
+//   document.querySelector('.pwplaceholder').placeholder = data[event.currentTarget.checked ? 'japanese' : 'english'].pwplaceholder;
+// });
+
+// var data = {
+//   "english": {
+//     "usrplaceholder": "Username",
+//     "pwplaceholder": "Password"
+//   },
+//   "japanese": {
+//     "usrplaceholder": "အသုံးပြုသူအမည်",
+//     "pwplaceholder": "စကားဝှက်",
+//   }
+// }
+
+
+
+//     <div class="form-item-fullname">
+//         <div class="form-item">
+//             <input type="text" name="prenom" id="prenom" data-i18n="formName" placeholder="Prénom*" style="text-transform: capitalize;">
+//             <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//         </div>
+//         <div class="form-item">
+//             <input type="text" name="nom" id="nom" data-i18n="formSurname" placeholder="Nom*" style="text-transform: capitalize;">
+//             <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//         </div>
+//     </div>
+//     <div class="form-item">
+//         <input type="text" name="mail" id="email" data-i18n="formMail" placeholder="Adresse e-mail*">
+//         <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//     </div>
+//     <div class="form-item">
+//         <input type="text" name="domain" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*">
+//         <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//     </div>
+//     <div class="form-item-languages">
+//         <div class="form-item">
+//             <input list="optionSource" id="langueSource" data-i18n="formLanguageSource" name="optionLangueSource" placeholder="Langue source">
+            
+//             <datalist id="optionSource">
+//                 <option value="Anglais" data-i18n="formLanguageEnglish"></option>
+//                 <option value="Français" data-i18n="formLanguageFrench"></option>
+//                 <option value="Allemand" data-i18n="formLanguageGerman"></option>
+//             </datalist>
+//             <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//         </div>
+
+//         <div class="form-item">
+//             <input list="optionLangue" id="langueCible" data-i18n="formLanguageCible" name="optionLangueCible" placeholder="Langue cible">
+            
+//             <datalist id="optionLangue">
+//                 <option value="Anglais" data-i18n="formLanguageEnglish"></option>
+//                 <option value="Français" data-i18n="formLanguageFrench"></option>
+//                 <option value="Allemand" data-i18n="formLanguageGerman"></option>
+//             </datalist>
+//             <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre deux et dix caractères</div>
+//         </div>
+//     </div>
+//     <div class="form-item">
+//         <textarea name="textarea" name="message" id="message" data-i18n="formMessage" placeholder="Message*"></textarea>
+//         <div class="error invisible" data-i18n="formContactError">Ce champ doit contenir entre dix et cent caractères</div>
+//     </div>
+//     <button id="btnForm" name="buttonForm" data-i18n="formButton" type="submit">Envoyer</button>
+
+
