@@ -11,10 +11,10 @@
   },
   "whoAmI": {
     "whoTitle": "QUI SUIS-JE ?",
-    "wholistOne": "Je m’appelle Rodolphe Quéau, je suis un traducteur interprète freelance spécialisé dans les langues françaises, allemandes et anglaises et suis capable de faire aussi bien de la traduction que de l’interprétariat.",
-    "wholistTwo": "J’ai déjà fait des traductions anglais-français pour  le milieu juridique, médical ainsi que cybersécurité ainsi qu’en allemand-français, des traductions avec le milieu technique et de l’environnement.",
-    "wholistThree": "Passionné depuis toujours dans les langues étrangères, j’ai suivi des études en Langues Etrangères Appliquées à l’Université Catholique de l’Ouest à Angers où j’ai obtenu une licence Langues Etrangères Appliquées avec une mineure Langue et Culture.",
-    "wholistFour": "Malgré le fait que j’ai eu un Bac Scientifique, mon intérêt s’est toujours porté sur les langues étrangères depuis aussi longtemps que je ne me souvienne et avait déjà un très bon niveau en anglais au lycée, ayant obtenu le B2 en Anglais à 17 ans."
+    "wholistOne": "Bonjour, je m’appelle Rodolphe, je suis traducteur-interprète et mes langues de travail comprennent l’anglais et l’allemand. Je suis en mesure de réaliser des traductions aussi bien de documents écrits que de documents audio-visuels, et peux aussi faire des interprétations en continu.",
+    "wholistTwo": "Les spécialisations de mes études m’ont permises de me familiariser avec des documents juridiques, techniques, mais aussi en cybersécurité. Ma propre expérience m’a permis aussi de me spécialiser dans le domaine de l’autisme.",
+    "wholistThree": "Au cours d’un stage, j’ai aussi reçu la reconnaissance du professionnalisme de mes traductions dans le domaine de l’audio-visuel.",
+    "wholistFour": "Passionné de traduction depuis la découverte de ce métier, chaque document sera rigoureusement traité et traduit afin de répondre à vos attentes, qu’elles concernent la qualité de la traduction ou le moment où vous requérez ces documents."
   },
   "educations": {
     "educTitle": "MON EDUCATION",
@@ -38,9 +38,9 @@
   },
   "tradServices": {
     "tradServicesTitle": "Traduction et interprétariat",
-    "textList-One": "Traduire ne consiste pas seulement à chercher un équivalent d’une langue à une autre, il s’agit de retranscrire au mieux l’esprit du document d’origine afin qu’il soit totalement compris par les locuteurs de la langue cible, sans en dénaturer le sens.",
-    "textList-Two": "Être bilingue ne suffit pas, le traducteur doit avant tout maîtriser parfaitement sa langue maternelle et savoir en dégager toutes les subtilités.",
-    "textList-Three": "De plus, nous vous conseillons de vous adresser à un expert dans son domaine de spécialité."
+    "textList-One": "La traduction n’est pas uniquement l’interprétation d’une phrase vers une autre langue, mais la compréhension intime des deux cultures concernées, soit celle de la langue départ et celle de la langue d’arrivée.",
+    "textList-Two": "Qui plus est, et de la même façon qu’un avocat, le traducteur peut aussi se spécialiser ; si l’avocat se tournera vers les affaires familiales, un traducteur pourra se spécialiser dans des domaines bien précis tels que la médecine, le droit, les sciences dures, le social, etc.",
+    "textList-Three": "Trouver le traducteur de la situation vous permettra, en l’occurrence, d’obtenir la traduction la plus adaptée."
   },
   "methods": {
     "methodTitle": "Méthodes",

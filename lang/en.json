@@ -11,10 +11,10 @@
   },
   "whoAmI": {
     "whoTitle": "Who Am I?",
-    "wholistOne": "My name is Rodolphe Quéau, I'm a freelance translator-interpreter specializing in German, French and English languages ​​and am able to do both translation and interpretation.",
-    "wholistTwo": "I have already done English-French translations for the legal, medical and cybersecurity sectors as well as German-French translations with the technical and environmental sectors.",
-    "wholistThree": "Always passionate about foreign languages, I studied Applied Foreign Languages ​​at the Catholic University of the West in Angers where I obtained a degree in Applied Foreign Languages ​​with a minor in Language and Culture.",
-    "wholistFour": "Despite the fact that I had a Scientific Baccalaureate, my interest has always been in foreign languages ​​for as long as I can remember and already had a very good level in English in high school, having obtained the B2 in English at 17 years old."
+    "wholistOne": "Hello one and all, my name is Rodolphe, I am a French translator and interpreter, and my work language are English and German to French. I am able to create translations from written as well audio-visual documents, and can perform continuous interpretation.",
+    "wholistTwo": "My studies have helped me getting familiarized in various fields, such as law, sciences and cybersecurity. My own experience has also made me uniquely specialized in documents pertaining to autism.",
+    "wholistThree": "During the course of an internship, I’ve also received acknowledgment in the professionalism of my translations in the audio-visual fields.",
+    "wholistFour": "I have been passionate about translation ever since I discovered the profession, and each document will be rigorously treated and translated, so that it may meet your expectations, be they in terms of quality or when you need them most."
   },
   "educations": {
     "educTitle": "MY EDUCATION",
@@ -26,7 +26,7 @@
     "educ2-P": "Licence Langues Etrangères Appliquées, mineure Langue et Culture"
   },
   "traductionLists": {
-    "traductionTitle": "Translation in other languages",
+    "traductionTitle": "Translation in multiple languages",
     "traductionListOne-first": "French-English",
     "traductionListOne-second": "French-German",
     "traductionListTwo-first": "English-French",
@@ -38,9 +38,9 @@
   },
   "tradServices": {
     "tradServicesTitle": "Translation and interpretation",
-    "textList-One": "Translating is not just about finding an equivalent from one language to another, it is about transcribing as best as possible the spirit of the original document so that it is completely understood by speakers of the target language, without distorting its meaning.",
-    "textList-Two": "Being bilingual is not enough; the translator must above all have a perfect command of his or her mother tongue and know how to bring out all its subtleties.",
-    "textList-Three": "In addition, we advise you to contact an expert in their field of specialty."
+    "textList-One": "Translating is not only an interpretation of a sentence from one language to another, but also the intimate understanding of the two cultures in question, as in the source and the target languages.",
+    "textList-Two": "Moreover, and much like a lawyer, a translator can also specialize; if a lawyer will work in the Family Court, a translator can target specific fields, such as medicine, the law, hard sciences, etc.",
+    "textList-Three": ""
   },
   "methods": {
     "methodTitle": "Methods",
