@@ -138,11 +138,11 @@ nav {
 
 /*  */
 .title-img {
-    height: 500px;
+    height: 600px;
     object-fit: cover;
 }
 .titleImg {
-    height: 500px;
+    height: 600px;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -150,7 +150,7 @@ nav {
 .backgroundTitle {
     background-color: black;
     opacity: 35%;
-    height: 500px;
+    height: 600px;
     width: 100%;
     position: absolute;
 }
