@@ -189,10 +189,9 @@ nav {
 }
 .who-div {
     color: white;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     width: 450px;
-    height: 560px;
-    margin-bottom: 15px;
+    /* height: 560px; */
 }
 .who-div h2 {
     margin-bottom: 15px;
@@ -202,7 +201,6 @@ nav {
 .whoList {
     list-style: none;
     padding-left: 20px;
-    
 }
 .whoList li {
     margin-bottom: 15px;
@@ -224,7 +222,7 @@ nav {
 .myEducation {
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     height: 350px;
     border-bottom: 5px #4D4848 solid;
 }
@@ -283,7 +281,7 @@ nav {
 
 .traductionLanguage {
     justify-content: center;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     padding: 25px 0;
     background-color: white;
 }
@@ -317,7 +315,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
 }
 .contactLink h2 {
     font-family: Tahoma;

@@ -1,11 +1,12 @@
 /* main */
 .traductionInterpretariat {
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
 .traductionInterpretariat h2 {
     width: 65%;
     margin: 25px;
@@ -13,43 +14,55 @@
     font-family: Tahoma;
 }
 
+.tradInter {
+    width: min(100%, 750px);
+    margin: 0 auto;
+}
+
 .img-trad {
-    margin-right: 65%;
-    width: 750px;
-    height: 500px;
-    
+    width: 80%;
+    height: auto;
 }
-.img-trad img{
+
+.img-trad img {
+    display: block;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
+
 .traductionText {
-    width: 671px;
+    width: min(92%, 671px);
+    box-sizing: border-box;
     background-color: #707380;
     padding: 3rem;
     margin-top: -15%;
     margin-left: 35%;
+    margin-right: 0;
     position: relative;
+    z-index: 2;
 }
+
 .textList {
     list-style: none;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
+
 .textList li {
     color: white;
     font-weight: lighter;
     font-family: Verdana;
     margin-bottom: 2rem;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
 }
 
 
 .methods {
     padding-top: 3rem;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 3rem;
 }
+
 .methods h3 {
     font-family: Tahoma;
     color: #494E5F;
@@ -68,6 +81,7 @@
     width: 70%;
     margin: 0 auto;
 }
+
 .reception {
     background-color: #494E5F;
     width: 300px;
@@ -76,14 +90,17 @@
     padding: 25px;
     text-align: center;
 }
+
 .reception img {
     width: 46px;
     height: 46px;
 }
+
 .reception p {
     padding-top: 10px;
     font-family: Verdana;
 }
+
 .reception h5 {
     padding-bottom: 10px;
     font-family: Tahoma;
@@ -96,14 +113,17 @@
     padding: 25px;
     text-align: center;
 }
+
 .contactMoi:hover {
     background-color: rgb(255, 0, 0);
 }
+
 .contactMoi a {
     text-decoration: none;
     color: white;
     font-family: Verdana;
 }
+
 .contactMoi p {
     width: 50%;
     align-items: center;
@@ -117,22 +137,25 @@
 .services {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: clamp(16px, 1.4vw, 18px);
     justify-content: center;
     align-items: center;
     padding: 25px;
 }
-.services h2{
+
+.services h2 {
     color: #212E53;
     padding-bottom: 5px;
     width: 70%;
     font-family: Tahoma;
 }
+
 .servicesList {
     list-style-type: none;
     margin: 15px;
     width: 70%;
 }
+
 .services span {
     display: block;
     /* width: 80%; */
@@ -141,6 +164,7 @@
     margin-bottom: 15px;
     margin-top: 5px;
 }
+
 .translation {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -152,6 +176,7 @@
     padding-bottom: 3rem;
     width: 70%;
 }
+
 .translationTitle {
     color: #212E53;
 }
@@ -164,17 +189,21 @@
     width: 100px;
     height: 100px;
 }
+
 .imgPersonnal img {
     width: 100%;
     height: 100%;
 }
+
 .personnalDocumentText {
     margin-left: 15px;
 }
+
 .personnalDocumentText p {
     font-size: 16px;
     font-family: Verdana;
 }
+
 .personnalDocumentText h4 {
     margin-bottom: 5px;
     font-family: Tahoma;
@@ -185,27 +214,34 @@
     width: 70%;
     padding-bottom: 3rem;
 }
+
 .interpretationTitle {
     color: #212E53;
 }
+
 .consecutiveInterpretation {
     display: flex;
 }
+
 .imgConsecutive {
     width: 150px;
     height: 120px;
 }
+
 .imgConsecutive img {
     width: 100%;
     height: 100%;
 }
+
 .consecutiveText {
     margin-left: 15px;
 }
+
 .consecutiveText p {
     font-size: 16px;
     font-family: Verdana;
 }
+
 .consecutiveText h4 {
     margin-bottom: 5px;
     font-family: Tahoma;
@@ -214,33 +250,44 @@
 
 @media (max-width: 1025px) {
     .translationServices {
-        width: 70%;
+        width: 90%;
     }
+
     .img-trad {
-        height: 200px;
-        width: 100vw;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
         display: block;
     }
+
     .img-trad img {
         max-width: 100%;
         width: 100%;
-        object-fit: cover;
+        height: auto;
     }
 
     .traductionInterpretariat {
         font-size: 1.2rem;
     }
+
     .traductionInterpretariat h2 {
         margin: 10px;
         padding: 10px;
     }
+
     .traductionText {
-        width: 400px;
+        width: min(94%, 560px);
+        box-sizing: border-box;
+        padding: 1.5rem;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin-top: -18%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .tradInter {
+        width: 100%;
         max-width: 100%;
     }
 
@@ -248,31 +295,72 @@
         justify-content: center;
         align-items: center;
     }
+
     .methods p {
         font-size: 12px;
     }
-    
+
     .containerGrid {
         justify-content: center;
         align-items: center;
         display: grid;
-        grid-template-columns: 250px 250px;
-        
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+        width: 92%;
+
     }
+
     .reception {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: auto;
+        min-height: 170px;
         padding: 15px;
-        margin: 15px;
+        margin: 0;
     }
-    .reception p{
+
+    .reception p {
         font-size: 1rem;
     }
+
     .contactMoi {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: auto;
+        min-height: 170px;
         padding: 15px;
-        margin: 15px;
+        margin: 0;
     }
-    
+
+}
+
+@media (max-width: 768px) {
+
+    .traductionInterpretariat h2,
+    .services h2,
+    .servicesList,
+    .translationServices,
+    .interpretationServices {
+        width: 92%;
+    }
+
+    .traductionText {
+        width: 94%;
+        padding: 1.25rem;
+        margin-top: -12%;
+    }
+
+    .containerGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 92%;
+    }
+
+    .personnalDocument,
+    .consecutiveInterpretation {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .personnalDocumentText,
+    .consecutiveText {
+        margin-left: 12px;
+    }
 }
