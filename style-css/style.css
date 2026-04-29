@@ -136,9 +136,10 @@ nav {
   font-weight: 500;
 }
 
+/*  */
 .title-img {
     height: 500px;
-    background-size: cover;
+    object-fit: cover;
 }
 .titleImg {
     height: 500px;
