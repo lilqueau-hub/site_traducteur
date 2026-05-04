@@ -66,7 +66,8 @@
     "ConsecutiveSiteTitle": "Consecutive interpretation - on site",
     "ConsecutiveSiteText": "Consecutive interpreting (each interlocutor waiting for the end of the translation in progress to continue), carried out at the meeting location. Travel costs counted in addition to the duration of the service.",
     "ConsecutivePhoneTitle": "Consecutive interpretation - by phone (or internet)",
-    "ConsecutivePhoneText": "Consecutive interpreting (each interlocutor waiting for the end of the translation in progress to continue), carried out at the meeting location. Communication costs counted in addition to the duration of the service."
+    "ConsecutivePhoneText": "Consecutive interpreting (each interlocutor waiting for the end of the translation in progress to continue), carried out at the meeting location. Communication costs counted in addition to the duration of the service.",
+    "receiveDevis": "Receive an invoice for the translation of your documents"
   },
   "traductionPrices": {
     "traductionTitle": "Translation - Prices",
