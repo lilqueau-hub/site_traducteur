@@ -156,23 +156,20 @@ nav {
 }
 .titleDiv {
     position: absolute;
-}
-.titleDiv {
-    justify-content: center;
-    align-items: center;
     padding-top: 25px;
     padding-left: 25px;
-    margin: auto 0;
+    align-items: center;
+    justify-content: center;
 }
 .title-img h1 {
     font-family: Tahoma;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 25px;
     font-weight: 500;
 }
 .title-img h2 {
     font-family: Tahoma;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 25px;
     font-weight: 500;
     font-size: 3rem;
