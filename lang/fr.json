@@ -62,15 +62,11 @@
     "translationServiceText": "Voici les services proposés pour la traduction",
     "personnalDocumentTitle": "Traduction de documents techniques",
     "personnalDocumentText": "Articles, manuels, sites internets, mode d’emploi, guide touristique, ouvrage scientifique",
-    "officialDocumentTitle": "Traduction de documents officiels",
-    "officialDocumentText": "Traduction de documents officiles ou certification de documents déjà traduits : Permis de conduire, certificat de mariage...",
-    "DocumentTitle": "Traduction de documents",
-    "DocumentText": "Traduction de documents commerciaux : plaquettes, guides, tarifs, déclaration de douanes, documents de transports, commandes, factures...",
     "interpretationServiceText": "Voici les services proposés pour l'interprétation",
     "ConsecutiveSiteTitle": "Interprétariat consécutif - sur site",
-    "ConsecutiveSiteText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.",
+    "ConsecutiveSiteText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieu du rendez-vous. Frais de déplacement comptés en sus de la durée de la prestation.",
     "ConsecutivePhoneTitle": "Interprétariat consécutif - par téléphone (ou internet)",
-    "ConsecutivePhoneText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé sur le lieux du rendez-vous. Frais de communication comptés en sus de la durée de la prestation."
+    "ConsecutivePhoneText": "Interprétariat consécutif (chaque interlocuteur attendant la fin de la traduction en cours pour poursuivre), réalisé par téléphone ou par appel en visio. Frais de communication comptés en sus de la durée de la prestation."
   },
   "traductionPrices": {
     "tradTitle": "Traduction - Tarifs",
