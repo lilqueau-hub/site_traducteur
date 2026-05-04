@@ -155,11 +155,11 @@ nav {
     position: absolute;
 }
 .titleDiv {
+    margin: 25px;
     position: absolute;
     padding-top: 25px;
     padding-left: 25px;
     align-items: center;
-    justify-content: center;
 }
 .title-img h1 {
     font-family: Tahoma;
