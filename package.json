@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/lilqueau-hub/site_traducteur#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
     "stylelint": "^17.11.1",
     "stylelint-config-standard": "^40.0.0"
   }
