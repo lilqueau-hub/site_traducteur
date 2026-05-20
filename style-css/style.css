@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    font-size: 1.4rem; /*14px*/
+    font-size: 1.4rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
 }
@@ -67,7 +67,6 @@ nav {
     height: 3px;
     background: #1a1a1a;
     border-radius: 2px;
-    transition: transform 0.25s ease, opacity 0.25 ease;
 }
 
 .navLanguagesBtn {
@@ -106,7 +105,7 @@ nav {
 /* Navbar Mobile */
 .mobile-menu {
     display: none;
-    background: #ffffff;
+    background: #fff;
     border-bottom: 1px solid #d8def2;
 }
 .mobile-menu-item {
@@ -136,7 +135,6 @@ nav {
   font-weight: 500;
 }
 
-/*  */
 .title-img {
     height: 600px;
     object-fit: cover;
@@ -367,10 +365,8 @@ footer {
     color: white;
     font-family: Verdana;
     font-size: 15px;
-    padding-top: -5px;
     padding-bottom: 15px;
 }
-
 
 .lienFooter {
     font-size: 15px;
@@ -583,10 +579,7 @@ input:focus {
         margin-bottom: 5px;
     }
     
-    /* .title-img h1 {
-        font-size: 25px;
-       
-    } */
+
     footer {
         display: flex;
         flex-direction: column;
@@ -612,5 +605,5 @@ input:focus {
         align-items: center;
         margin: 0 auto; 
     }
-    
+
 }
