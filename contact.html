@@ -119,25 +119,25 @@
                 <form id="formulaire" action="https://formspree.io/f/xykldapp" method="POST">
                     <div class="form-item-fullname">
                         <div class="form-item">
-                            <input type="text" name="prenom" id="prenom" data-i18n="formName" placeholder="Prénom*" style="text-transform: capitalize;">
+                            <input type="text" name="prenom" id="prenom" data-i18n="formName" placeholder="Prénom*" style="text-transform: capitalize;" aria-label="Prénom">
                             <div class="error invisible" data-i18n="formContactError"></div>
                         </div>
                         <div class="form-item">
-                            <input type="text" name="nom" id="nom" data-i18n="formSurname" placeholder="Nom*" style="text-transform: capitalize;">
+                            <input type="text" name="nom" id="nom" data-i18n="formSurname" placeholder="Nom*" style="text-transform: capitalize;" aria-label="Nom">
                             <div class="error invisible" data-i18n="formContactError"></div>
                         </div>
                     </div>
                     <div class="form-item">
-                        <input type="text" name="mail" id="email" data-i18n="formMail" placeholder="Adresse e-mail*">
+                        <input type="text" name="mail" id="email" data-i18n="formMail" placeholder="Adresse e-mail*" aria-label="Adresse e-mail">
                         <div class="error invisible" data-i18n="formContactError"></div>
                     </div>
                     <div class="form-item">
-                        <input type="text" name="domain" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*">
+                        <input type="text" name="domain" id="domain" data-i18n="formDomain" placeholder="Domaine du projet*" aria-label="Domaine du projet">
                         <div class="error invisible" data-i18n="formContactError"></div>
                     </div>
                     <div class="form-item-languages">
                         <div class="form-item">
-                            <input list="optionSource" id="langueSource" data-i18n="formLanguageSource" name="optionLangueSource" placeholder="Langue source">
+                            <input list="optionSource" id="langueSource" data-i18n="formLanguageSource" name="optionLangueSource" placeholder="Langue source" aria-label="Langue source">
                             
                             <datalist id="optionSource">
                                 <option value="Anglais" data-i18n="formLanguageEnglish"></option>
@@ -148,7 +148,7 @@
                         </div>
 
                         <div class="form-item">
-                            <input list="optionLangue" id="langueCible" data-i18n="formLanguageCible" name="optionLangueCible" placeholder="Langue cible">
+                            <input list="optionLangue" id="langueCible" data-i18n="formLanguageCible" name="optionLangueCible" placeholder="Langue cible" aria-label="Langue cible">
                             
                             <datalist id="optionLangue">
                                 <option value="Anglais" data-i18n="formLanguageEnglish"></option>
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                     <div class="form-item">
-                        <textarea name="textarea" name="message" id="message" data-i18n="formMessage" placeholder="Message*"></textarea>
+                        <textarea name="textarea" name="message" id="message" data-i18n="formMessage" placeholder="Message*" aria-label="Message"></textarea>
                         <div class="error invisible" data-i18n="formContactError"></div>
                     </div>
                     <button id="btnForm" name="buttonForm" data-i18n="formButton" type="submit"></button>
